@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEAMINER</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+  </head>
+
+  <body>
+    <canvas class="orb-canvas"></canvas>
+    <div class="menu">
+      <!-- Logo -->
+      <div href="index.html" class="logo">
+        <img src="img/teaminer_logo.png" alt="Logo" />
+      </div>
+
+      <!-- Top Menu -->
+
+      <!-- Registration Button -->
+      <button class="registration-button">開始吧</button>
+    </div>
+
+    <nav class="navbar">
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="/">主页</a></li>
+          <li><a href="/">关于</a></li>
+          <li><a href="/">采矿</a></li>
+          <li><a href="/">社区</a></li>
+          <li><a href="/">机会</a></li>
+          <li><a href="/">新闻</a></li>
+          <li class="services">
+            <a href="/">语言</a>
+            <!-- DROPDOWN MENU -->
+            <ul class="dropdown">
+              <li><a href="index_english.html">ENGLISH</a></li>
+              <li><a href="/">CHINESE</a></li>
+              <li><a href="index.html">SPANISH</a></li>
+            </ul>
+          </li>
+        </div>
+      </ul>
+    </nav>
+
+    <!-- Overlay -->
+    <div class="overlay">
+      <!-- Overlay inner wrapper -->
+      <div class="overlay__inner">
+        <!-- Title -->
+        <h1 class="overlay__title">
+          <span class="text-gradient">释放TEAMINER的DeFi潜力 </span>
+        </h1>
+
+        <!-- Description -->
+        <p class="overlay__description">
+          在 Teaminer,
+          我们是网络营销行业的领导者，在市场上拥有独特的技术。我们正在重新定义区块链。
+          <br /><br />
+
+          <strong> "创新，创造，影响"</strong>
+        </p>
+        <div href="index.html" class="welcome">
+          <img src="img/imagen fondo.png" alt="welcome" />
+        </div>
+        <!-- Buttons -->
+        <div class="overlay__btns">
+          <button class="overlay__btn overlay__btn--transparent">
+            <a
+              href="https://georgefrancis.dev/writing/create-a-generative-landing-page-and-webgl-powered-background/"
+              target="_blank"
+              class="login-link"
+            >
+              登錄
+            </a>
+          </button>
+          <button class="overlay__btn overlay__btn--colors">
+            <span>報到</span>
+            <span class="overlay__btn-emoji">₿</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="titulo5">
+      <div class="sub-title">歡迎來到 <strong>革命</strong></div>
+      <div class="custom-heading">
+        加入加密革命 <br /><span class="text-gradient">並改變您的未來！!</span>
+      </div>
+      <hr />
+      <div class="custom-text">
+        在 Teaminer, 我们创建了一个强大的生态系统，
+        <br />重新定义了人们与区块链技术和加密货币互动的方式。<br />
+        区块链技术和加密货币的互动方式。
+        <br />我们为您提供参与 令人兴奋的加密货币挖矿、教育和传销世界、
+        集于一身。 <br />我们的使命是为您提供一个安全的
+        平台，让您实现自己的财务目标， <br />过上自己 过上您梦寐以求的生活。了解
+        Teaminer 的 技术如何引领您走向繁荣的未来。 <br /><br />
+        <strong>欢迎加入区块链革命！今天就加入</strong>
+      </div>
+    </div>
+
+    <div class="container">
+      <img src="img/cohete_.png" alt="Teaminer Global" class="banner-image2" />
+      <h1><br /><strong></strong><br /></h1>
+      <p></p>
+      <div class="custom-btn4">注册</div>
+    </div>
+
+    <div class="blank">
+      <div>探索我們的產品</div>
+    </div>
+    <div class="container second">
+      <div class="item">
+        <div class="img img-first"></div>
+        <div class="card">
+          <div>比特币开采</div>
+          <div>
+            加入我們的加密貨幣挖礦平台，利用尖端技術和高評價的礦池來最大化您的利潤。
+            有利可圖。
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="img img-second"></div>
+        <div class="card">
+          <div>學院</div>
+          <div>
+            通過我們的互動教育平台探索令人興奮的加密貨幣世界，並成為該領域的專家。
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="img img-third"></div>
+        <div class="card">
+          <div>區塊鏈</div>
+          <div>
+            憑藉我們自己的 BLOCKMESH ®
+            區塊鏈，我們為未來的應用程序和產品提供可靠且安全的服務。
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="blank"></div>
+
+    <div class="banner">
+      <div class="banner-title">TEAMINER 的獨特機會</div>
+      <div class="banner-description">
+        在 Teaminer 發現獨特的財務和教育機會。
+        <br />參與令人興奮的傳銷模式並獲得可擴展的收入。 <br />充分利用挖礦優勢
+        由人工智能驅動的加密貨幣可實現收入最大化。 <br />接受教育的機會
+        關於加密貨幣世界的質量。 <br />我們自己的
+        區塊鍊為您提供安全、去中心化的服務。 加入，改變你的未來！
+      </div>
+
+      <div class="icon-container">
+        <div class="icon-item">
+          <img src="img/icono_seguridad_financiera.png" alt="Icono 1" />
+          <span class="icon-title">財務安全</span>
+        </div>
+        <div class="icon-item">
+          <img src="img/icono_crecimiento_cripto.png" alt="Icono 2" />
+          <span class="icon-title">加密貨幣的增長</span>
+        </div>
+        <div class="icon-item">
+          <img src="img/icono_comunidad_solida.png" alt="Icono 3" />
+          <span class="icon-title">堅實的社區</span>
+        </div>
+        <div class="icon-item">
+          <img src="img/icono_oportunidad_mlm.png" alt="Icono 4" />
+          <span class="icon-title">傳銷機會</span>
+        </div>
+        <div class="icon-item">
+          <img src="img/icono_blockchain_transparente.png" alt="Icono 5" />
+          <span class="icon-title">透明區塊鏈</span>
+        </div>
+      </div>
+      <div class="custom-btn5">報名</div>
+    </div>
+
+    <div class="titulo11">
+      <div class="sub-title3"><strong>战俘</strong>采矿</div>
+      <div class="custom-heading2">
+        先進採礦技術 與 <br /><span class="text-gradient2"
+          >Teaminer 討論 BTC 的未來</span
+        >
+      </div>
+      <div class="separador2"></div>
+      <div class="custom-text2">
+        在 Teaminer, 我们走在 "POW "挖矿的前沿，这要归功于我们的创新、<br />
+        我们独有的 <strong>BLOCKMESH ®</strong> 区块链、 以及我们的
+        <strong>SCL</strong> （智能合约许可） <br />挖矿合约模型。
+        我们为所有用户提供安全、有利可图的体验 <br />
+        我们为所有希望参与到非凡的比特币挖矿世界中的用户提供安全、
+        <br />有利可图的体验。 此外，所有付款都直接从不同的矿池 到您的个人钱包，
+        <br />从而最大化您的努力价值。 <br />
+
+        <br /><strong>加入我们，与 TEAMINER 一起探索采矿革命</strong>
+      </div>
+      <img
+        src="img/bajo_mining.png"
+        alt="Imagen que aparece"
+        class="image-overlay"
+      />
+      <img
+        src="img/mining_btc_icon.png"
+        alt="Imagen que aparece"
+        class="image-overlay image-overlay1"
+      />
+      <img
+        src="img/mining_block_icon.png"
+        alt="Imagen que aparece"
+        class="image-overlay image-overlay2"
+      />
+      <img
+        src="img/mining_smart_icon.png"
+        alt="Imagen que aparece"
+        class="image-overlay image-overlay3"
+      />
+      <img
+        src="img/mining_mining_icon.png"
+        alt="Imagen que aparece"
+        class="image-overlay image-overlay4"
+      />
+    </div>
+
+    <div class="container30">
+      <div class="title11">智能采矿</div>
+      <div class="sub-title4">
+        在 TEAMINER,我们深知技术是动态的,
+        模式也在不断演变。我们将人工智能和我们强大的 BLOCKMESH ®
+        区块链与智能合约许可证（SCL）模式相结合，重新定义了传统挖矿的动态。因此，我们创建了一个全新的生态系统，能够在
+        POW 挖矿过程中与比特币矿工进行独特的互动。我们的关键技术包括
+      </div>
+
+      <figure>
+        <img class="image" src="img/IA.png" alt="inteligencia" />
+        <figcaption class="text1">
+          <strong>人工智能采矿的未来 </strong><br /><br />
+
+          Teaminer 的加密货币挖矿技术的发展得益于我们创新的人工智能 (AI)
+          技术。通过人工智能，我们最大限度地提高了矿池内矿工的效率和盈利能力。
+        </figcaption>
+      </figure>
+      <figure>
+        <img class="image" src="img/billetera.png" alt="Contract" />
+        <figcaption class="text2">
+          <strong>释放 SCL 的全部潜能</strong><br /><br />
+
+          在 Teaminer，我们很自豪能提供
+          SCL（智能合约许可证）作为我们挖矿生态系统的一部分。SCL
+          潜力巨大，可为我们的会员提供各种优势。
+        </figcaption>
+      </figure>
+      <figure>
+        <img class="image" src="img/SMART.png" alt="wallet" />
+        <figcaption class="text3">
+          <strong>矿池直接付款</strong><br /><br />
+
+          借助智能合约许可证（SCL）的强大功能，我们通过在区块链中为每个许可证授予一个验证器，为会员提供稳固的去中心化挖矿体验。
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="container2">
+      <img
+        src="img/logo_fondo.png"
+        alt="Teaminer Global"
+        class="banner-image"
+      />
+      <div class="custom-title10">组建全球网络</div>
+      <div class="custom-text10">
+        我们致力于建立一个由 <br />
+        我们致力于形成一个全球网络， <br />让那些热衷于加密货币挖掘
+        和个人发展的全球企业家网络。 <br />我们邀请所有 经验水平的个人加入
+        Teaminer， <br />并从 我们基于区块链技术的强大传销结构。
+        <br />
+
+        立即注册！
+      </div>
+      <div class="custom-btn3">注册</div>
+    </div>
+
+    <div class="titulo10">
+      <div class="sub-title2">知识</div>
+      <div class="custom-heading2">
+        通过 以下方式在 Teaminer 发现成功 <br /><span class="text-gradient2"
+          >教育与赋权</span
+        >
+      </div>
+      <div class="separador"></div>
+
+      <div class="custom-text2">
+        我们关注的不仅仅是金融机会。我们致力于提供 持续的教育和培训，
+        <br />帮助您在生活的各个方面取得成功。 我们的社区旨在增强您的能力，
+        <br />为您提供必要的 知识，以便在新的数字经济中茁壮成长。
+        <br />从加密货币挖掘 到传销，我们提供了一个完整的生态系统，
+        <br />帮助您实现自己的目标和梦想。 <br />
+        加入我们，成为这场激动人心的加密革命的一部分。<br /><br />
+
+        <strong>"利用我们的教育平台助您成功"</strong>
+        <div class="custom-img">
+          <img
+            src="img/educacion_cohete.png"
+            alt="Imagen que aparece"
+            class="image-overlay20"
+          />
+          <img
+            src="img/educacion_chat.png"
+            alt="Imagen que aparece"
+            class="image-overlay21"
+          />
+          <img
+            src="img/educacion_videos.png"
+            alt="Imagen que aparece"
+            class="image-overlay22"
+          />
+          <img
+            src="img/educacion_reunion.png"
+            alt="Imagen que aparece"
+            class="image-overlay23"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="banner2">
+      <div class="banner-title2" style="margin-left: 43%">增强您的知..识</div>
+      <div class="banner-description2">
+        加入加密行业的教育革命 <br />
+        为您的个人和职业发展提供一个专用平台。 <br />
+        与 Teaminer 一起学习、赚钱和发展，您将获得以下资源：
+      </div>
+
+      <div class="icon-container2">
+        <div class="icon-item2">
+          <img src="img/recursos.png" alt="Icono 1" />
+          <span class="icon-title2">综合教育平台</span>
+        </div>
+        <div class="icon-item2">
+          <img src="img/ingresos.png" alt="Icono 2" />
+          <span class="icon-title2">创造剩余收入</span>
+        </div>
+
+        <div class="icon-item2">
+          <img src="img/aprendisaje.png" alt="Icono 3" />
+          <span class="icon-title2">持续学习的文化</span>
+        </div>
+        <div class="icon-item2">
+          <img src="img/abilidades.png" alt="Icono 4" />
+          <span class="icon-title2">培 养宝贵的技能</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="LICENCIAS10">
+      <h6>我 们 的 采 矿 许 可证</h6>
+      <hr style="margin-left: 2%" />
+    </div>
+
+    <div class="join-us3"></div>
+
+    <!-- cartas variables   -->
+
+    <div class="section5 over-hide">
+      <div class="container22">
+        <!-- Carta 1 -->
+        <div class="col-12 col-md-4 text-center align-self-center py-5">
+          <div class="section text-center py-5 py-md-0">
+            <input
+              class="pricing"
+              type="checkbox"
+              id="pricing"
+              name="pricing"
+            />
+            <label for="pricing">
+              <span class="block-diff"
+                >初
+                学者&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                  class="float-right"
+                  >铜</span
+                ></span
+              >
+            </label>
+            <div class="card-3d-wrap">
+              <div class="card-3d-wrapper">
+                <div class="card-front">
+                  <div class="pricing-wrap">
+                    <div class="mb-5"><strong>初</strong></div>
+                    <div class="mb-2">最大能力 5 TH/s</div>
+                    <div class="mb-4">智能合约许可证</div>
+                    <div class="mb-1">
+                      <i class="uil uil-location-pin-alt size-22"></i>
+                    </div>
+                    <div class="mb-4">36 个月 <br />BTC 矿业</div>
+                    <div class="custom-btn10">购买</div>
+                    <div class="img-wrap img-2">
+                      <img src="img/fond_cartas.png" alt="" />
+                      <!-- fondo SUPERIOR -->
+                    </div>
+                    <div class="img-wrap img-1">
+                      <img src="img/200.png" alt="" /><!-- CANOA   -->
+                    </div>
+                    <div class="img-wrap img-3">
+                      <img src="img/SC.png" alt="" /><!-- GOTAS DE AGUA   -->
+                    </div>
+                    <div class="img-wrap img-6">
+                      <img src="img/llve.png" alt="" /><!-- PIEDRA  -->
+                    </div>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <div class="pricing-wrap">
+                    <div class="mb-5"><strong>铜</strong></div>
+                    <div class="mb-2">最大能力 13 TH/s</div>
+                    <div class="mb-4">智能合约许可证</div>
+                    <div class="mb-1">
+                      <i class="uil uil-location-pin-alt size-22"></i>
+                    </div>
+                    <div class="mb-4">36 个月 <br />BTC 矿业</div>
+                    <div class="custom-btn11">购买</div>
+                    <div class="img-wrap img-2">
+                      <img
+                        src="img/invrsa_beginner.png"
+                        alt=""
+                      /><!-- fondo superior -->
+                    </div>
+                    <div class="img-wrap img-4">
+                      <img src="img/500.png" alt="" /><!-- PIEDRA  -->
+                    </div>
+                    <div class="img-wrap img-5">
+                      <img src="img/scl_coper.png" alt="" /><!-- PIEDRA  -->
+                    </div>
+                    <div class="img-wrap img-7">
+                      <img src="img/llve.png" alt="" /><!-- PIEDRA  -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carta 2 -->
+        <div class="col-12 col-md-4 text-center align-self-center py-5">
+          <div class="section text-center py-5 py-md-0">
+            <input
+              class="pricing"
+              type="checkbox"
+              id="pricing2"
+              name="pricing"
+            />
+            <label for="pricing2">
+              <span class="block-diff"
+                >&nbsp;&nbsp;普拉塔
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                  class="float-right"
+                  >金子</span
+                ></span
+              >
+            </label>
+            <div class="card-3d-wrap">
+              <div class="card-3d-wrapper">
+                <div class="card-front">
+                  <div class="pricing-wrap">
+                    <div class="mb-5"><strong>普拉塔</strong></div>
+                    <div class="mb-2">最大能力 27 TH/s</div>
+                    <div class="mb-4">智能合约许可证</div>
+                    <div class="mb-1">
+                      <i class="uil uil-location-pin-alt size-22"></i>
+                    </div>
+                    <div class="mb-4">36 个月<br />BTC 矿业</div>
+                    <div class="custom-btn12">购买</div>
+                    <div class="img-wrap img-2">
+                      <img src="img/fond_cartas.png" alt="" />
+                      <!-- fondo SUPERIOR -->
+                    </div>
+                    <div class="img-wrap img-1">
+                      <img src="img/1000.png" alt="" /><!-- CANOA   -->
+                    </div>
+                    <div class="img-wrap img-3">
+                      <img
+                        src="img/scl_ilver.png"
+                        alt=""
+                      /><!-- GOTAS DE AGUA   -->
+                    </div>
+                    <div class="img-wrap img-6">
+                      <img src="img/llve.png" alt="" /><!-- PIEDRA  -->
+                    </div>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <div class="pricing-wrap">
+                    <div class="mb-5"><strong>金子</strong></div>
+                    <div class="mb-2">最大处理能力 70 TH/s</div>
+                    <div class="mb-4">智能合约许可证</div>
+                    <div class="mb-1">
+                      <i class="uil uil-location-pin-alt size-22"></i>
+                    </div>
+                    <div class="mb-4">36 个月 <br />BTC 矿业</div>
+                    <div class="custom-btn13">购买</div>
+                    <div class="img-wrap img-2">
+                      <img
+                        src="img/invers_beginner.png"
+                        alt=""
+                      /><!-- fondo superior -->
+                    </div>
+                    <div class="img-wrap img-4">
+                      <img src="img/2500.png" alt="" /><!-- PIEDRA  -->
+                    </div>
+                    <div class="img-wrap img-5">
+                      <img src="img/sclgold.png" alt="" /><!-- PIEDRA  -->
+                    </div>
+                    <div class="img-wrap img-7">
+                      <img src="img/llae.png" alt="" /><!-- PIEDRA  -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carta 3 -->
+        <div class="col-12 col-md-4 text-center align-self-center py-5">
+          <div class="section text-center py-5 py-md-0">
+            <input
+              class="pricing"
+              type="checkbox"
+              id="pricing3"
+              name="pricing"
+            />
+            <label for="pricing3">
+              <span class="block-diff"
+                >&nbsp;&nbsp;普拉蒂诺
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                  class="float-right"
+                  >钻石</span
+                ></span
+              >
+            </label>
+            <div class="card-3d-wrap">
+              <div class="card-3d-wrapper">
+                <div class="card-front">
+                  <div class="pricing-wrap">
+                    <div class="mb-5"><strong>普拉蒂诺</strong></div>
+                    <div class="mb-2">最大输送能力 150 TH/s</div>
+                    <div class="mb-4">智能合约许可证</div>
+                    <div class="mb-1">
+                      <i class="uil uil-location-pin-alt size-22"></i>
+                    </div>
+                    <div class="mb-4">36 个月 <br />BTC 矿业</div>
+                    <div class="custom-btn14">购买</div>
+                    <div class="img-wrap img-2">
+                      <img src="img/fond_cartas.png" alt="" />
+                      <!-- fondo SUPERIOR -->
+                    </div>
+                    <div class="img-wrap img-1">
+                      <img src="img/5000.png" alt="" /><!-- CANOA   -->
+                    </div>
+                    <div class="img-wrap img-3">
+                      <img
+                        src="img/scl_pltino.png"
+                        alt=""
+                      /><!-- GOTAS DE AGUA   -->
+                    </div>
+                    <div class="img-wrap img-6">
+                      <img src="img/llae.png" alt="" /><!-- PIEDRA  -->
+                    </div>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <div class="pricing-wrap">
+                    <div class="mb-5"><strong>钻石</strong></div>
+                    <div class="mb-2">最大处理能力 310 TH/s</div>
+                    <div class="mb-4">智能合约许可证</div>
+                    <div class="mb-1">
+                      <i class="uil uil-location-pin-alt size-22"></i>
+                    </div>
+                    <div class="mb-4">36 个月<br />BTC 矿业</div>
+                    <div class="custom-btn15">购买</div>
+                    <div class="img-wrap img-2">
+                      <img
+                        src="img/invers_beginner.png"
+                        alt=""
+                      /><!-- fondo superior -->
+                    </div>
+                    <div class="img-wrap img-4">
+                      <img src="img/10000.png" alt="" /><!-- PIEDRA  -->
+                    </div>
+                    <div class="img-wrap img-5">
+                      <img src="img/scl_emrald.png" alt="" /><!-- PIEDRA  -->
+                    </div>
+                    <div class="img-wrap img-7">
+                      <img src="img/llve.png" alt="" /><!-- PIEDRA  -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="join-us2">
+      <div class="titulo">
+        我们的全球合作伙伴
+        <hr />
+      </div>
+      <div class="quienes-somos2">
+        <div class="texto">
+          在
+          Teminer，我们与业内领先的公司合作，发展强大的业务模式，为我们的生态系统提供安全和活力。我们与行业领导者合作，以实现产品的卓越性和目标。我们很荣幸能成为这个行业充满希望的未来的一部分。
+        </div>
+      </div>
+    </div>
+
+    <article class="wrapper">
+      <div class="marquee">
+        <div class="marquee__group">
+          <img src="img/logo (1).png" alt="Logo 1" />
+          <img src="img/logo (2).png" alt="Logo 2" />
+          <img src="img/logo (3).png" alt="Logo 3" />
+          <img src="img/logo (4).png" alt="Logo 4" />
+          <img src="img/logo (5).png" alt="Logo 5" />
+          <img src="img/logo (6).png" alt="Logo 6" />
+          <img src="img/logo (7).png" alt="Logo 7" />
+          <img src="img/logo (8).png" alt="Logo 8" />
+          <img src="img/logo (9).png" alt="Logo 9" />
+          <img src="img/logo (10).png" alt="Logo 10" />
+          <img src="img/logo (11).png" alt="Logo 11" />
+          <img src="img/logo (12).png" alt="Logo 12" />
+          <img src="img/logo (13).png" alt="Logo 13" />
+          <img src="img/logo (14).png" alt="Logo 14" />
+          <!-- Agrega más imágenes aquí -->
+        </div>
+
+        <div aria-hidden="true" class="marquee__group">
+          <img src="img/logo (1).png" alt="Logo 1" />
+          <img src="img/logo (2).png" alt="Logo 2" />
+          <img src="img/logo (3).png" alt="Logo 3" />
+          <img src="img/logo (4).png" alt="Logo 4" />
+          <img src="img/logo (5).png" alt="Logo 5" />
+          <img src="img/logo (6).png" alt="Logo 6" />
+          <img src="img/logo (7).png" alt="Logo 7" />
+          <img src="img/logo (8).png" alt="Logo 8" />
+          <img src="img/logo (9).png" alt="Logo 9" />
+          <img src="img/logo (10).png" alt="Logo 10" />
+          <img src="img/logo (11).png" alt="Logo 11" />
+          <img src="img/logo (12).png" alt="Logo 12" />
+          <img src="img/logo (13).png" alt="Logo 13" />
+          <img src="img/logo (14).png" alt="Logo 14" />
+          <!-- Agrega más imágenes aquí -->
+        </div>
+      </div>
+    </article>
+
+    <div class="title90">常见问题</div>
+
+    <div class="accordion">
+      <input type="checkbox" id="accordion1" />
+      <label class="accordion__button" for="accordion1">
+        什么是 Teaminer？
+        <img class="arrow" src="img/boton.png" alt="Flecha" />
+      </label>
+      <div class="accordion__content">
+        Teaminer
+        是一家在加密货币挖矿行业、教育和传销领域处于领先地位的公司。我们的主要重点是通过人工智能驱动的挖矿、高质量的教育和基于我们自己的
+        DeFi 区块链 <strong>BLOCKMESH®</strong>
+        的强大业务网络，为我们的会员提供一个独特的机会，让他们茁壮成长并实现经济独立。
+      </div>
+    </div>
+
+    <div class="accordion">
+      <input type="checkbox" id="accordion2" />
+      <label class="accordion__button" for="accordion2">
+        如何加入 Teaminer？
+        <img class="arrow" src="img/boton2.png" alt="Flecha" />
+      </label>
+      <div class="accordion__content">
+        要加入
+        Teaminer，只需访问我们的网站并注册成为会员。注册时，您需要准备两样非常重要的东西：
+        <br /><strong
+          >1.- 加密钱包（Metamask 或信任钱包） <br />
+          2.- 会员邀请码 <br
+        /></strong>
+        加入后，您就可以访问我们的采矿、教育和传销平台，并开始享受我们提供的福利。
+      </div>
+    </div>
+
+    <div class="accordion">
+      <input type="checkbox" id="accordion3" />
+      <label class="accordion__button" for="accordion3">
+        利用人工智能技术进行采矿有哪些优势？
+        <img class="arrow" src="img/boton.png" alt="Flecha" />
+      </label>
+      <div class="accordion__content">
+        利用我们的人工智能技术进行挖矿，使我们能够最大限度地提高 TEAMINER
+        所连接的不同 POOL
+        的所有运营效率和盈利能力。得益于我们的创新技术和我们自己的区块链
+        <strong>BLOCKMESH ®</strong>
+        的集成，我们可以为所有会员提供安全、分散和有利可图的挖矿体验。
+      </div>
+    </div>
+
+    <div class="accordion">
+      <input type="checkbox" id="accordion4" />
+      <label class="accordion__button" for="accordion4">
+        如何在 Teaminer 中保护我的资产？
+        <img class="arrow" src="img/boton2.png" alt="Flecha" />
+      </label>
+      <div class="accordion__content">
+        在
+        Teaminer，我们采用去中心化的方式，安全、透明地保护您的资产。我们独有的
+        DeFi 平台和区块链已开发 3
+        年多，可确保公司无法控制您的财务。您可以完全控制自己的资产，这意味着您在任何时候都能享受可靠和自主的保护，并可以直接在我们的
+        <strong>BLOCKMESH ®</strong>
+        区块链上以去中心化的方式审计和审查所有交易。
+      </div>
+    </div>
+
+    <div class="accordion">
+      <input type="checkbox" id="accordion5" />
+      <label class="accordion__button" for="accordion5">
+        Teaminer 社区提供哪些福利？
+        <img class="arrow" src="img/boton.png" alt="Flecha" />
+      </label>
+      <div class="accordion__content">
+        在
+        Teaminer，我们的全球社区为其成员提供广泛的福利。通过全球网络活动、丰富的学习机会，以及获得加密货币挖矿、区块链和传销方面的全面教育，我们确保为会员提供独一无二的体验。我们拥有自己的去中心化区块链，确保每位成员都能完全控制自己的资产，提供可靠、安全的保护。作为
+        Teaminer
+        社区的一员，您可以沉浸在令人兴奋的数字经济世界中，充分利用我们的尖端平台和全球发展机会。
+      </div>
+    </div>
+
+    <div class="accordion">
+      <input type="checkbox" id="accordion6" />
+      <label class="accordion__button" for="accordion6">
+        公司在哪里注册？
+        <img class="arrow" src="img/boton2.png" alt="Flecha" />
+      </label>
+      <div class="accordion__content">
+        TEAMINER
+        在美国怀俄明州注册。作为一家美国公司，我们努力遵守不同监管实体的所有规章制度。我们有一个专门的团队来确保公司的顺利运营，并确保我们的运营对所有会员来说都是透明和可靠的。此外，我们拥有自己的区块链
+        <strong>BLOCKMESH ®</strong
+        >，采用去中心化的金融方式，使我们能够在全球范围内提供加密货币挖矿、区块链技术和传销领域的服务和优质教育。
+      </div>
+    </div>
+
+    <!-- Agrega más bloques de acordeón aquí -->
+
+    <!-- faq   -->
+
+    <script src="script.js" type="module"></script>
+
+    <div class="curved-section">
+      <div class="bold-text">
+        "如需了解有关我们产品和/或服务的详细信息， <br />请与我们的专业顾问
+        联系我们的专业顾问。他们很乐意为您提供必要的指导。<br />
+        必要的指导。 请提供您的电子邮件地址，我们将尽快与您联系。
+      </div>
+      <div class="subscription-form">
+        <input type="email" placeholder="電子郵件地址" class="email-input" />
+        <button class="subscribe-button">發送</button>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-separator"></div>
+      <div class="footer-container">
+        <div class="footer-column0">
+          <h3 class="footer-title"><strong>免责声明</strong></h3>
+          <div class="footer-text">
+            本网站所含信息仅供一般参考之用。虽然我们努力保持信息的最新性和准确性，但对于本网站或本网站所含用于任何目的的信息、产品、服务或相关图形的完整性、准确性、可靠性、适用性或可用性，我们不作任何明示或暗示的陈述或保证。不保证客户和会员的收入或业务收益。在TEAMINER的每一個成員的成功或失敗，與任何其他業務一樣，取決於用戶的個人技能，奉獻精神，個人努力，領導素質和市場條件。請諮詢財務顧問以獲得專業建議。
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3 class="footer-title1"><strong> 公司名称</strong></h3>
+          <ul class="footer-navigation">
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">采矿</a></li>
+            <li><a href="#">社区</a></li>
+            <li><a href="#">机会</a></li>
+            <li><a href="#">新闻</a></li>
+          </ul>
+        </div>
+        <div class="footer-column1">
+          <h3 class="footer-title2"><strong> 资源</strong></h3>
+          <ul class="footer-navigation">
+            <li><a href="#"></a></li>
+            <li><a href="#">条款和条件</a></li>
+            <li><a href="#">隐私权</a></li>
+            <li><a href="#">退货政策</a></li>
+            <li><a href="#">政策与程序</a></li>
+          </ul>
+        </div>
+        <div class="footer-column2">
+          <div class="footer-title3"><strong> 地址</strong></div>
+          <div class="footer-address">怀俄明州，道路 0000、<br />美国</div>
+
+          <div class="redes-sociales">
+            <a href="#" class="red-social-link"
+              ><img src="img/logo_instagram.png" alt="Instagram"
+            /></a>
+            <a href="#" class="red-social-link"
+              ><img src="img/logo_twetter.png" alt="Twitter"
+            /></a>
+            <a href="#" class="red-social-link"
+              ><img src="img/logo_linkedin.png" alt="LinkedIn"
+            /></a>
+            <a href="#" class="red-social-link"
+              ><img src="img/logo_facebook.png" alt="Facebook"
+            /></a>
+            <a href="#" class="red-social-link"
+              ><img src="img/logo_youtube.png" alt="Facebook"
+            /></a>
+            <a href="#" class="red-social-link"
+              ><img src="img/logo_telegram.png" alt="Facebook"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-separator"></div>
+      <div class="footer-bottom">
+        <div class="footer-logo">
+          <img src="img/teaminer_logo.png" alt="Logo" />
+        </div>
+        <div class="footer-trademark">
+          <div class="footer-trademark-text">
+            © Copyright 2023 Teaminer LLC. All Rights Reserved.
+          </div>
+          <button class="footer-trademark-button" onclick="scrollToHeader()">
+            Top-menu
+          </button>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
