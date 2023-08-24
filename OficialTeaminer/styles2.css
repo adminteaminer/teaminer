@@ -116,6 +116,11 @@
     max-width: 350px;
     height: auto;
     margin-left: 70px;
+
+
+
+
+/*Estilos Menu Superior*/
   }
   .top-menu {
     display: flex;
@@ -145,11 +150,46 @@
     transition: background-color 0.3s, color 0.3s;
   }
   
-  
   .top-menu li a:hover {
     color: #ff00f7;
   }
+
+  .top-menu .language-menu{
+    position: relative;
+  }
+
+  .top-menu .language-options{
+    background-color: transparent;
+    padding: 1em 8px;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 15px;
+    top: 31px;
+
+  }
+
+  .top-menu .language-options li + li{
+    margin-top: 10px;
+  }
+
+  .language-options li{
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+  }
+
+  .language-options li:hover{
+    background-color: #4c9e9e;
+  }
+
+  .top-menu:hover .language-options{
+    display: block;
+  }
   
+
+
+
+
  /* Estilos generales del menú */
 .main-menu {
   list-style: none;
@@ -158,7 +198,7 @@
   align-items: center;
   padding: 0px;
   margin: 0;
- font-weight: bold;
+  font-weight: bold;
   margin-top: 30px;
   margin-left: 200px;
 }
@@ -213,7 +253,7 @@
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
+    left: -24px;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -1105,7 +1145,6 @@ Media query para pantallas de 768px
    /* -TITULO NUESTROS PRODUCTOS-   BLANK */
 .blank {
   text-align: center;
-  padding: 150px;
   background-color: rgba(240, 240, 240, 0);
   color: rgb(0, 0, 0);
 }
@@ -3584,6 +3623,8 @@ TERMINOS Y CONDICIONES
   .menu {
     max-width: 100%;
     justify-content: center;
+    top: 4px;
+    height: 58px;
   }
 
   .main-menu{
@@ -3594,7 +3635,7 @@ TERMINOS Y CONDICIONES
     padding: 0px;
     margin: 0;
     font-weight:600;
-    margin-top: 6px;
+    margin-top: 16px;
     margin-left: 230px;
 
   }
@@ -3607,17 +3648,29 @@ TERMINOS Y CONDICIONES
 
   .main-menu li a{
     padding: 0px 19px;
+    font-weight: bold;
+    font-size: 11px;
   }
 
 
   .top-menu{
     display: flex;
     list-style: none;
-    margin-top: -60px;
-    margin-left: 390px;
+    margin-top: -37px;
+    margin-left: 374px;
     position: absolute;
     gap: 11px;
     margin-bottom: 50px;
+  }
+
+  .top-menu li{
+    font-size: 10px;
+    margin-left: -5%;
+  }
+
+  .top-menu li a{
+    font-size: 11px;
+    margin-left: 34%;
   }
 
   .registration-button{
@@ -3625,14 +3678,23 @@ TERMINOS Y CONDICIONES
     font-weight: bold;
     border: 1px solid #000;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 12px;
+    margin-left: 3%;
+    margin-top: 15px;
 
   }
 
   .nft-button{
-    right: 50%;
+    right: 71px;
     position: fixed;
-    bottom: 74%;
+    bottom: 586px;
+    padding-left: 16px;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-bottom: 18px;
+    padding-right: 17px;
+    top: 31px;
+    margin-top: -1px;
   }
 
   .explore-button{
@@ -3641,37 +3703,76 @@ TERMINOS Y CONDICIONES
   }
 
   .logo img{
+    max-width: 204px;
+    height: auto;
+    margin-left: -19%;
+  }
+
+
+  /*
+    .logo img{
     max-width: 300px;
     height: auto;
-    margin-left: 21%;
+    margin-left: 1%;
   }
+  */
 
   .overlay{
-    width: 95%;
-    height: 100%;
-    margin-left: 4%;
-    margin-top: 200px;
-    padding-left: 2rem;
+    width: 63%;
+    margin-left: 19%;
+    margin-top: 180px;
+    padding-left: 3rem;
   }
 
+  .overlay__title{
+    font-size: 30px;
+    margin-bottom: -2rem;
+    margin-top: -99px;
+    padding-left: 1px;
+    line-height: 118%;
+  }
+
+  .overlay__description{
+    margin-bottom: 2rem;
+    font-size: 18px;
+    padding-left: 2px;
+    text-align: justify;
+    margin-top: 14%;
+
+  }
+
+  .overlay__btns{
+    margin-left: 2%;
+  }
+
+  .bienvenida{
+    margin-left: 68px;
+  }
+
+
+
   .logo-movil2{
-    margin-left: 70%;
+    margin-left: 54%;
+    width: 27%;
+    margin-top: 213px;
   }
 
   .sub-title{
-    font-size: 24px;
-    margin-top: -18%;
-    margin-left: -5%;
+    font-size: 18px;
+    margin-top: -20%;
+    margin-left: -13%;
   }
 
   .custom-heading{
-    margin-top: -15%;
-    margin-left: -19%;
+    margin-top: -17%;
+    margin-left: -13%;
     font-size: 40px;
+    line-height: 40px;
   }
 
   .item{
     margin-left: 14px;
+    max-height: 30%;
   }
 
   .titulo5{
@@ -3682,11 +3783,162 @@ TERMINOS Y CONDICIONES
   hr{
     display: none;
   }
+
+  .banner-image2{
+    max-width: 177px;
+  }
+  .custom-btn4{
+    padding: 6px 10px;
+    border: 1px solid #ffffff;
+    font-size: 11px;
+    margin-bottom: 20px;
+  }
+
+  .blank{
+    font-size: 40px;
+    margin-top: 30%;
+    font-weight: bold;
+  }
+
+  .card{
+    font-size: 11px;
+  }
+
+  .centro{
+    margin-left: 8%;
+  }
+
+  .banner-title{
+    font-size: 39px;
+    margin-top: -280px;
+  }
+
+  .banner-description{
+    font-size: 15px;
+    margin-top: -11%;
+  }
+
+  .icon-item img{
+    width: 110px;
+    height: 110px;
+  }
+
+  .icon-title{
+    font-size: 14px;
+    margin-left: -133px;
+    margin-top: 110px;
+    
+
+  }
+  .custom-btn5{
+    font-size: 15px;
+  }
+
+
   
   .custom-text{
     margin-left: -13%;
-    margin-top: -5%;
+    margin-top: -8%;
     margin-right: 520px;
+    font-size: 17px;
+  }
+
+  .sub-title4{
+    font-size: 12px;
+    margin-bottom: 86px;
+    margin-top: -15px;
+  }
+
+  .custom-title10{
+    font-size: 29px;
+    margin-left: 2%;
+    margin-top: -12%;
+  }
+
+  .custom-text10{
+    font-size: 16px;
+    margin-top: 150px;
+  }
+
+  .custom-btn3{
+    margin-top: 473px;
+    font-size: 10px;
+    border: 1px solid rgb(255, 255, 255)
+  }
+
+
+  /*
+  hr {
+  width: 300px;
+  height: 5px;
+  background-color: rgb(251, 0, 255);
+  margin: 0 auto;
+  margin-top: -170px;
+  margin-bottom: 20px;
+  margin-left: -100px;
+  position: absolute;
+}
+
+  */
+
+.LICENCIAS10 h6{
+  font-size: 24px;
+  text-align: center;
+  margin-top: 183px;
+  margin-bottom: -263px;
+  font-weight: 700;   
+}
+
+hr {
+  width: 300px;
+  height: 5px;
+  background-color: rgb(251, 0, 255);
+  margin: 0 auto;
+  margin-top: -170px;
+  margin-bottom: 20px;
+  margin-left: -100px;
+  position: absolute;
+}
+
+.pricing-wrap .mb-4{
+  font-size: 15px;
+  margin-top: -18px;
+}
+
+.pricing-wrap .mb-2{
+  margin-top: -50px;
+}
+
+.custom-btn10{
+  margin-left: -41px;
+  margin-top: -16px;
+  padding: 4px 10px;
+}
+
+.custom-btn12{
+  margin-left: -41px;
+  margin-top: -16px;
+  padding: 4px 10px;
+
+}
+
+.custom-btn14{
+  margin-left: -41px;
+  margin-top: -16px;
+  padding: 4px 10px;
+
+}
+
+.titulo{
+  font-size: 36px;
+}
+
+
+
+  
+
+  .banner-image{
+    width: 67%;
   }
 
   .titulo11{
@@ -3700,57 +3952,91 @@ TERMINOS Y CONDICIONES
 
   .custom-text2{
     font-size: 17px;
-    margin-right: 495px;
+    margin-right: 340px;
+    margin-top: 158px;
   }
 
 
   .separador2{
     width: 196px;
     height: 5px;
-    margin-top: 110px;
+    margin-top: 120px;
   }
 
   .mineriat{
-    width: 40%;
-    margin-left: -22%;
+    width: 34%;
+    margin-left: -40%;
   }
 
   .title11{
-    margin-left: 30%;
+    margin-left: 37%;
+    font-size: 34px;
   }
 
-  .sub-title3{
-    left: 130px;
+  .container30{
+    padding: 108px;
+  }
 
+  .image{
+    height: 94%;
+  }
+
+  
+
+  .sub-title3{
+    left: 132px;
+    font-size: 16px;
+    margin-top: 181px;
+  }
+
+  .banner-title2{
+    font-size: 34px;
+  }
+
+  .banner-description2{
+    font-size: 17px;
+  }
+
+  .image-overlay20{
+    width: 25%;
+    bottom: 216px;
+    left: 143px;
   }
 
   .custom-heading3{
-    margin-left: 110px;
-    font-size: 55px;
+    margin-left: 129px;
+    font-size: 38px;
+    line-height: 1;
+    margin-top: -188px;
   }
 
   .separador{
-    margin-left: 120px;
+    margin-left: 135px;
+    margin-top: -85px;
   }
 
   .custom-text3{
     margin-left: 134px;
-    margin-right: 674px;
-    font-size: 21px;
+    margin-right: 517px;
+    font-size: 13px;
+    margin-top: -51px;
 
   }
 
   .icon-title2{
-    margin-left: 40px;
+    margin-left: 2px;
     align-items: center;
     margin-right: -25px;
+    font-size: 12px;
 
   }
 
   .icon-item2 img{
-    margin-left: -15%;
-    width: 160px;
-    height: 170px;
+    margin-left: 14%;
+    width: 150px;
+    height: 133px;
+    margin-bottom: 2px;
+    margin-top: -69px;
   }
 
   .container2{
@@ -3758,7 +4044,7 @@ TERMINOS Y CONDICIONES
   }
 
   figcaption{
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .container22{
@@ -3775,25 +4061,84 @@ TERMINOS Y CONDICIONES
   }
 
   .texto{
-    font-size: 20px;
+    font-size: 15px;
+    margin-top: -57px;
+  }
+
+  .marquee__group img{
+    max-height: 82px;
   }
 
   .title90{
-    margin-left: 30%;
+    margin-left: 37%;
+    font-size: 34px;
+    margin-bottom: 59px;
+  }
+
+  .accordion__button{
+    padding: 2px;
+    width: 87%;
+    font-size: 18px;
+    margin-left: 39px;
+    margin-top: -9px;
+  }
+  
+  .accordion__content{
+    font-size: 15px;
+  }
+
+  .arrow{
+    width: 31px;
+    height: 29px;
+  }
+
+  .bold-text{
+    font-size: 51%;
   }
 
   .curved-section{
-    margin-left: 140px;
+    margin-left: 319px;
     font-size: 20px;
+    margin-bottom: -31%;
+    width: 51%;
+    padding-top: 33px;
   }
+
+  .footer-title{
+    font-size: 16px;
+  }
+
+  .footer-title1{
+    font-size: 16px;
+    margin-left: 17px;
+  }
+
+  .footer-title2{
+    font-size: 16px;
+
+  }
+
+  .footer-title3{
+    font-size: 16px;
+
+  }
+
+
+
 
   .email-input{
     padding: 0px 2px;
-    margin-left: 680px;
+    margin-left: 424px;
+    font-size: 14px;
+    margin-top: -113px;
+
   }
 
   .subscribe-button{
-    padding: 1px 5px;
+    padding: 0px 3px;
+    margin-left: 592px;
+    font-size: 17px;
+    margin-top: -111px;
   }
 
   .footer-navigation{
@@ -3801,8 +4146,8 @@ TERMINOS Y CONDICIONES
   }
 
   .footer-text{
-    font-size: 13px;
-    margin-right: 4%;
+    font-size: 12px;
+    margin-right: 33%;
   }
 
   .footer-column0{
@@ -3815,6 +4160,16 @@ TERMINOS Y CONDICIONES
 
   .footer-column2{
     margin-right: -20%;
+  }
+
+  .footer-address{
+    font-size: 11px;
+
+  }
+
+  .footer-link footer-link-1
+  {
+    font-size: 40px;
   }
 
 
