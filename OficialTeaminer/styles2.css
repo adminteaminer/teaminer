@@ -3747,6 +3747,7 @@ TERMINOS Y CONDICIONES
 
   .bienvenida{
     margin-left: 68px;
+    margin-top: 395px;
   }
 
 
@@ -3773,6 +3774,7 @@ TERMINOS Y CONDICIONES
   .item{
     margin-left: 14px;
     max-height: 30%;
+    max-width: 21%;
   }
 
   .titulo5{
@@ -3784,6 +3786,10 @@ TERMINOS Y CONDICIONES
     display: none;
   }
 
+  .banner{
+    margin-top: -33%;
+  }
+
   .banner-image2{
     max-width: 177px;
   }
@@ -3791,7 +3797,8 @@ TERMINOS Y CONDICIONES
     padding: 6px 10px;
     border: 1px solid #ffffff;
     font-size: 11px;
-    margin-bottom: 20px;
+    font-weight: 700;
+    margin-bottom: 162px;
   }
 
   .blank{
@@ -3844,7 +3851,7 @@ TERMINOS Y CONDICIONES
   }
 
   .sub-title4{
-    font-size: 12px;
+    font-size: 16px;
     margin-bottom: 86px;
     margin-top: -15px;
   }
@@ -3886,7 +3893,9 @@ TERMINOS Y CONDICIONES
   text-align: center;
   margin-top: 183px;
   margin-bottom: -263px;
-  font-weight: 700;   
+  font-weight: 700;
+  top: -275px !important;
+  position: relative;
 }
 
 hr {
@@ -4040,7 +4049,7 @@ hr {
   }
 
   .container2{
-    margin-top: 666px;
+    margin-top: 326px;
   }
 
   figcaption{
@@ -4060,9 +4069,18 @@ hr {
     font-size: 40px;
   }
 
+  .titulo10{
+    margin-top: 147px;
+    margin-bottom: 161px;
+  }
+
   .texto{
     font-size: 15px;
     margin-top: -57px;
+  }
+
+  .join-us3{
+    margin-top: 48px;
   }
 
   .marquee__group img{
@@ -4076,7 +4094,7 @@ hr {
   }
 
   .accordion__button{
-    padding: 2px;
+    padding: 7px;
     width: 87%;
     font-size: 18px;
     margin-left: 39px;
