@@ -159,7 +159,7 @@
   }
 
   .top-menu .language-options{
-    background-color: transparent;
+    background-color: white;
     padding: 1em 8px;
     position: absolute; /*WITH RESPECT TO PARENT*/
     display: none;
@@ -328,105 +328,7 @@
   ----------------------------------------------
   ----------------------------------------------
   */
-/* Media query para mostrar el slide bar y el botón en pantallas de hasta 768px */
-@media screen and (max-width: 768px) {
-    .menu {
-      display: none;
-    }
-  
-    .slide-bar {
-      display: block;
-    }
-  
-    .open-button {
-      display: block;
-    }
-  }
-  
-  
 
-  @media screen and (min-width: 768px) and (max-width: 768px) {
-    /* Estilos para el menú principal */
-
-
-    
-    .menu {
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 20px 10px;
-      background-color: rgba(255, 255, 255, 0.9);
-      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      z-index: 1001;
-    }
-  
-    .logo {
-      margin: 10px;
-      text-align: center;
-    }
-  
-    .logo img {
-      max-width: 80px;
-      height: auto;
-      
-    }
-  
-    .top-menu {
-      justify-content: flex-start;
-      margin-top: 10px;
-    }
-  
-    .top-menu li {
-      margin-right: 15px;
-      margin-bottom: 10px;
-      font-size: 14px;
-    }
-  
-    .main-menu {
-      justify-content: flex-start;
-      margin-top: 10px;
-    }
-  
-    .main-menu li {
-      margin-right: 15px;
-      font-size: 14px;
-    }
-  
-    .registration-button {
-      margin-top: 10px;
-      width: 100%;
-    }
-  
-    /* Estilos para el slide bar */
-    .slide-bar {
-      display: block;
-      position: fixed;
-      top: 0;
-      right: -250px;
-      width: 250px;
-      height: 100%;
-      background-color: white;
-      color: #000;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-      transition: right 0.3s ease-in-out;
-      z-index: 1000;
-    }
-  
-    .slide-bar ul {
-      padding: 20px;
-      margin-top: 60px;
-    }
-  
-    .slide-bar li {
-      font-size: 16px;
-    }
-  
-  
-  }
-  
 
   /*TERMINO MEDIA QUERY  MENU */
 
@@ -2929,12 +2831,7 @@ Media query para pantallas de 768px
   }
 }
 
-/* Media query para pantallas mayores a 768px */
-@media screen and (min-width: 769px) {
-  .fondo img[alt="movil"] {
-    display: none;
-  }
-}
+
 
 /* TERMINO MEDIA QUERY CONTAINER--------------------*/
 
@@ -4323,8 +4220,9 @@ hr {
   }
 
   .bienvenida{
-    margin-left: 6px;
+    margin-left: 4px;
     margin-top: 395px;
+    width: 88%;
   }
 
   .logo-movil2{
@@ -4335,14 +4233,14 @@ hr {
 
   .sub-title{
     font-size: 16px;
-    margin-top: -30%;
-    margin-left: 17%;
+    margin-top: -84%;
+    margin-left: 15%;
   }
 
   .custom-heading{
     margin-top: -71%;
     margin-left: 1%;
-    font-size: 27px;
+    font-size: 25px;
     line-height: 32px;
   }
 
@@ -4350,6 +4248,7 @@ hr {
     margin-left: 14px;
     max-height: 30%;
     max-width: 100%;
+    margin-top: 17%;
   }
 
   .titulo5{
@@ -5307,11 +5206,20 @@ hr {
 
 /*--------------------------------------769px px hasta 1024px----------------------------------------------------------------------*/
 @media (min-width: 769px) and (max-width: 1024px) {
+
+
+
+  body{
+    overflow-x: hidden;
+    
+  }
+
+
   .menu {
-    max-width: 100%;
+    max-width: 90%;
     justify-content: center;
     top: 4px;
-    height: 42px;
+    height: 60px;
   }
 
   .main-menu{
@@ -5322,8 +5230,8 @@ hr {
     padding: 0px;
     margin: 0;
     font-weight:600;
-    margin-top: 8px;
-    margin-left: 80px;
+    margin-top: 29px;
+    margin-left: 148px;
   }
 
   .main-menu li{
@@ -5369,33 +5277,37 @@ hr {
   }
 
   .nft-button{
-    right: 36px;
+    right: 16%;
     position: fixed;
-    bottom: 391px;
-    padding-left: 8px;
-    font-size: 10px;
+    bottom: 99%;
+    padding-left: 4px;
+    font-size: 8px;
     padding-top: 1px;
-    padding-bottom: 12px;
-    padding-right: 9px;
-    top: 15px;
-    margin-top: -1px;
+    padding-bottom: 6px;
+    padding-right: 4px;
+    top:28px;
+    margin-top: -20px;
   }
 
   .explore-button{
-    margin-bottom: 200px;
-    margin-right: 155px;
+    margin-bottom: 206px;
+    margin-right: 258px;
+    width: 12%;
+    height: 7%;
+    padding-top: 3px;
+    margin-top: -24px;
   }
 
   .logo img{
-    max-width: 102px;
+    max-width: 171px;
     height: auto;
-    margin-left: -8%;
+    margin-left: -0%;
   }
 
 
   .overlay{
     width: 100%;
-    margin-left: 0;
+    margin-left: 60px;
     margin-top: 180px;
     padding-left: 2rem;
   }
@@ -5422,38 +5334,43 @@ hr {
   }
 
   .bienvenida{
-    margin-left: 50px;
+    margin-left: 260px;
     margin-top: 300px;
   }
 
   .logo-movil2{
-    margin-left: 54%;
-    width: 100%;
-    margin-top: 213px;
+    margin-left: 59%;
+    width: 33%;
+    margin-top: 280px;
   }
 
   .sub-title{
     font-size: 14px;
     margin-top: -15%;
-    margin-left: -10%;
+    margin-left: 20%;
   }
 
   .custom-heading{
-    margin-top: -15%;
-    margin-left: -10%;
+    margin-top: -13%;
+    margin-left: 4%;
     font-size: 28px;
-    line-height: 28px;
+    line-height: -1px;
   }
 
   .item{
-    margin-left: 10px;
-    max-height: 20%;
-    max-width: 100%;
+    margin-left: 21px;
+    max-height: 37%;
+    max-width: 174%;
+    margin-right: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .titulo5{
     text-align: justify;
     padding: 8px;
+    overflow-y: hidden;
+    overflow-x: hidden;
   }
 
   hr{
@@ -5462,10 +5379,12 @@ hr {
 
   .banner{
     margin-top: -25%;
+    padding-top: 230px;
+    margin-top: -532px;
   }
 
   .banner-image2{
-    max-width: 100%;
+    max-width: 20%;
   }
 
   .custom-btn4{
@@ -5496,8 +5415,8 @@ hr {
   }
 
   .banner-description{
-    font-size: 12px;
-    margin-top: -6%;
+    font-size: 16px;
+    margin-top: -23%;
   }
 
   .icon-item img{
@@ -5506,8 +5425,8 @@ hr {
   }
 
   .icon-title{
-    font-size: 10px;
-    margin-left: -93px;
+    font-size: 15px;
+    margin-left: -128px;
     margin-top: 80px;
   }
 
@@ -5516,42 +5435,42 @@ hr {
   }
 
   .custom-text{
-    margin-left: -8%;
+    margin-left: 5%;
     margin-top: -4%;
-    margin-right: 240px;
-    font-size: 12px;
+    margin-right: 287px;
+    font-size: 16px;
   }
 
   .sub-title4{
-    font-size: 12px;
+    font-size: 16px;
     margin-bottom: 60px;
     margin-top: -10px;
   }
 
   .custom-title10{
-    font-size: 20px;
+    font-size: 33px;
     margin-left: 1%;
-    margin-top: -8%;
+    margin-top: -24%;
   }
 
   .custom-text10{
-    font-size: 12px;
+    font-size: 18px;
     margin-top: 100px;
   }
 
   .custom-btn3{
-    margin-top: 300px;
-    font-size: 7px;
+    margin-top: 410px;
+    font-size: 12px;
     border: 1px solid #fff;
   }
 
   .LICENCIAS10 h6{
-    font-size: 16px;
+    font-size: 30px;
     text-align: center;
     margin-top: 90px;
     margin-bottom: -130px;
     font-weight: 700;
-    top: -140px !important;
+    top: -215px !important;
     position: relative;
   }
 
@@ -5576,43 +5495,70 @@ hr {
   }
 
   .custom-btn10{
-    margin-left: -15px;
-    margin-top: -6px;
-    padding: 1px 4px;
+    margin-left: -42px;
+    margin-top: -24px;
+    padding: 0px 9px;
   }
 
+  .custom-btn11{
+    margin-left: -42px;
+    margin-top: -24px;
+    padding: 0px 9px;
+  }
+
+
   .custom-btn12{
-    margin-left: -15px;
-    margin-top: -6px;
-    padding: 1px 4px;
+    margin-left: -42px;
+    margin-top: -24px;
+    padding: 0px 9px;
+  }
+
+  .custom-btn13{
+    margin-left: -42px;
+    margin-top: -24px;
+    padding: 0px 9px;
   }
 
   .custom-btn14{
-    margin-left: -15px;
-    margin-top: -6px;
-    padding: 1px 4px;
+    margin-left: -42px;
+    margin-top: -24px;
+    padding: 0px 9px;
+  }
+
+  .custom-btn15{
+    margin-left: -42px;
+    margin-top: -24px;
+    padding: 0px 9px;
   }
 
   .titulo{
-    font-size: 20px;
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+
+  #seccion-oportunidad .desktop{
+    display: none;
   }
 
   .banner-image{
     width: 100%;
+    margin-right: 5%;
   }
 
   .titulo11{
     padding: 50px;
     text-align: center;
+    margin-left: -1%;
+    margin-right: -16%;
   }
 
   .custom-heading2{
-    font-size: 24px;
+    font-size: 15px;
   }
 
   .custom-text2{
-    font-size: 12px;
-    margin-right: 120px;
+    font-size: 16px;
+    margin-right: 375px;
     margin-top: 60px;
   }
 
@@ -5623,13 +5569,14 @@ hr {
   }
 
   .mineriat{
-    width: 100%;
-    margin-left: 0;
+    width: 17%;
+    margin-left: -464px;
+    margin-top: -10px;
   }
 
   .title11{
-    margin-left: 50%;
-    font-size: 20px;
+    margin-left: 36%;
+    font-size: 32px;
   }
 
   .container30{
@@ -5641,9 +5588,9 @@ hr {
   }
 
   .sub-title3{
-    left: 50px;
-    font-size: 10px;
-    margin-top: 70px;
+    left: 72px;
+    font-size: 14px;
+    margin-top: 301px;
   }
 
   .banner-title2{
@@ -5655,40 +5602,42 @@ hr {
   }
 
   .image-overlay20{
-    width: 100%;
-    bottom: auto;
-    left: auto;
+    width: 42%;
+    bottom: 90px;
+    left: 120px;
   }
 
   .custom-heading3{
-    margin-left: 0;
+    margin-left: 71px;
     font-size: 20px;
     line-height: 1;
     margin-top: -80px;
   }
 
   .separador{
-    margin-left: 0;
+    margin-left: 73px;
     margin-top: -38px;
   }
 
   .custom-text3{
-    margin-left: 0;
+    margin-left: 67px;
     margin-right: 0;
-    font-size: 10px;
-    margin-top: -15px;
+    font-size: 16px;
+    margin-top: -22px;
+    padding-right: 51%;
+    text-align: end;
   }
 
   .icon-title2{
     margin-left: 1px;
     align-items: center;
     margin-right: -12px;
-    font-size: 8px;
+    font-size: 11px;
   }
 
   .icon-item2 img{
-    margin-left: 0;
-    width: 100%;
+    margin-left: 13px;
+    width: 78%;
     height: auto;
     margin-bottom: 2px;
     margin-top: -30px;
@@ -5699,20 +5648,25 @@ hr {
   }
 
   figcaption{
-    font-size: 8px;
+    font-size: 10px;
+    width: 139%;
   }
 
   .container22{
     gap: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
   }
 
   .section5{
     margin-left: 16px;
     padding-left: 23px;
+    margin-top: 67px;
   }
 
   .sub-title100{
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .titulo10{
@@ -5721,8 +5675,11 @@ hr {
   }
 
   .texto{
-    font-size: 10px;
+    font-size: 16px;
     margin-top: -28px;
+    text-align: justify;
+    margin-left: 160px;
+    margin-right: 130px;
   }
 
   .join-us3{
@@ -5730,17 +5687,17 @@ hr {
   }
 
   .marquee__group img{
-    max-height: 45px;
+    max-height: 120px;
   }
 
   .title90{
-    margin-left: 50%;
-    font-size: 20px;
+    margin-left: 35%;
+    font-size: 28px;
     margin-bottom: 24px;
   }
 
   .accordion__button{
-    padding: 4px;
+    padding: 12px;
     width: 100%;
     font-size: 12px;
     margin-left: 0;
@@ -5761,11 +5718,11 @@ hr {
   }
 
   .curved-section{
-    margin-left: 0;
-    font-size: 14px;
-    margin-bottom: -15%;
-    width: 100%;
-    padding-top: 18px;
+    margin-left: 130px;
+    font-size: 37px;
+    margin-bottom: -36%;
+    width: 74%;
+    padding-top: 23px;
   }
 
   .footer-title{
@@ -5774,29 +5731,32 @@ hr {
 
   .footer-title1{
     font-size: 12px;
-    margin-left: 8px;
+    margin-left: 22px;
   }
 
   .footer-title2{
     font-size: 12px;
+    margin-left: -150px;
+    text-align: center;
   }
 
   .footer-title3{
     font-size: 12px;
+    text-align: center;
   }
 
   .email-input{
     padding: 0px 1px;
-    margin-left: 180px;
-    font-size: 9px;
-    margin-top: -54px;
+    margin-left: 437px;
+    font-size: 15px;
+    margin-top: -136px;
   }
 
   .subscribe-button{
     padding: 0px 2px;
-    margin-left: 250px;
-    font-size: 12px;
-    margin-top: -53px;
+    margin-left: 616px;
+    font-size: 18px;
+    margin-top: -137px;
   }
 
   .footer-navigation{
@@ -5804,24 +5764,24 @@ hr {
   }
 
   .footer-text{
-    font-size: 8px;
+    font-size: 12px;
     margin-right: 15%;
   }
 
   .footer-column0{
-    margin-right: -3%;
+    margin-right: -10%;
   }
 
   .footer-column1{
-    margin-right: -3%;
+    margin-right: -10%;
   }
 
   .footer-column2{
-    margin-right: -8%;
+    margin-right: -30%;
   }
 
   .footer-address{
-    font-size: 7px;
+    font-size: 10px;
   }
 
   .footer-link footer-link-1 {
