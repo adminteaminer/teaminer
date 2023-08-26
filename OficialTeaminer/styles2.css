@@ -3323,7 +3323,7 @@ Media query para pantallas de 768px
   font-size: 14px;
 }
 .footer-trademark-text{
-  font-size: 16px;
+  font-size: 10px;
   margin-top: -30px;
   position: absolute;
   margin-left: 1000px;
@@ -4105,6 +4105,8 @@ hr {
     overflow-x: hidden !important;
   }
 
+  /*
+
     .menu {
     max-width: 100%;
     justify-content: center;
@@ -4156,6 +4158,8 @@ hr {
     margin-left: 17%;
   }
 
+  */
+
   .registration-button{
     padding: 0px 1px;
     font-weight: bold;
@@ -4178,6 +4182,34 @@ hr {
     top: 66px;
     margin-top: -1px;
   }
+
+  /* Estilos del menú lateral */
+  .slide-bar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #000000e4;
+    color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: left 0.3s ease-in-out;
+    display: none;
+    z-index: 1000;
+    text-decoration: none;
+  }
+  
+  .slide-bar.open {
+    left: 0;
+    
+  }
+  
+  .slide-bar .close-button {
+   
+    display: none;
+  }
+
+  
 
   .explore-button{
     margin-bottom: 200px;
@@ -4735,6 +4767,32 @@ hr {
   .explore-button{
     margin-bottom: 200px;
     margin-right: 195px;
+  }
+
+  /* Estilos del menú lateral */
+  .slide-bar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #000000e4;
+    color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: left 0.3s ease-in-out;
+    display: none;
+    z-index: 1000;
+    text-decoration: none;
+  }
+  
+  .slide-bar.open {
+    left: 0;
+    
+  }
+  
+  .slide-bar .close-button {
+   
+    display: none;
   }
 
   .logo img{
@@ -5796,8 +5854,8 @@ hr {
   .menu {
     max-width: 100%;
     justify-content: center;
-    top: 4px;
-    height: 42px;
+    top: 6px;
+    height: 60px;
   }
 
   .main-menu{
@@ -5827,8 +5885,8 @@ hr {
   .top-menu{
     display: flex;
     list-style: none;
-    margin-top: -24px;
-    margin-left: 187px;
+    margin-top: -31px;
+    margin-left: 133px;
     position: absolute;
     gap: 6px;
     margin-bottom: 30px;
@@ -5850,21 +5908,22 @@ hr {
     border: 1px solid #000;
     border-radius: 3px;
     font-size: 10px;
-    margin-left: 1%;
+    margin-left: 3%;
     margin-top: 8px;
   }
 
   .nft-button{
-    right: 36px;
+    right: 187px;
     position: fixed;
-    bottom: 391px;
-    padding-left: 8px;
+    bottom: 702px;
+    padding-left: 11px;
     font-size: 10px;
     padding-top: 1px;
     padding-bottom: 12px;
-    padding-right: 9px;
+    padding-right: 13px;
     top: 15px;
-    margin-top: -1px;
+    margin-top: -7px;
+    margin-bottom: 7px;
   }
 
   .explore-button{
@@ -5873,17 +5932,18 @@ hr {
   }
 
   .logo img{
-    max-width: 102px;
+    max-width: 200px;
     height: auto;
-    margin-left: -9%;
+    margin-left: -43%;
   }
 
 
   .overlay{
-    width: 100%;
-    margin-left: 0;
-    margin-top: 180px;
+    width: 75%;
+    margin-left: 175px;
+    margin-top: 128px;
     padding-left: 3rem;
+    padding-bottom: 14%;
   }
 
   .overlay__title{
@@ -5908,25 +5968,26 @@ hr {
   }
 
   .bienvenida{
-    margin-left: 68px;
-    margin-top: 395px;
+    margin-left: 191px;
+    margin-top: 180px;
+    max-width: 64%;
   }
 
   .logo-movil2{
-    margin-left: 54%;
-    width: 100%;
+    margin-left: 61%;
+    width: 29%;
     margin-top: 213px;
   }
 
   .sub-title{
     font-size: 16px;
-    margin-top: -20%;
-    margin-left: -13%;
+    margin-top: -17%;
+    margin-left: 10%;
   }
 
   .custom-heading{
-    margin-top: -17%;
-    margin-left: -13%;
+    margin-top: -14%;
+    margin-left: 8%;
     font-size: 32px;
     line-height: 32px;
   }
@@ -5951,13 +6012,13 @@ hr {
   }
 
   .banner-image2{
-    max-width: 100%;
+    max-width: 20%;
   }
 
   .custom-btn4{
     padding: 4px 8px;
     border: 1px solid #ffffff;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 700;
     margin-bottom: 80px;
   }
@@ -5982,8 +6043,8 @@ hr {
   }
 
   .banner-description{
-    font-size: 13px;
-    margin-top: -8%;
+    font-size: 17px;
+    margin-top: -16%;
   }
 
   .icon-item img{
@@ -5992,17 +6053,17 @@ hr {
   }
 
   .icon-title{
-    font-size: 12px;
-    margin-left: -103px;
+    font-size: 14px;
+    margin-left: -120px;
     margin-top: 90px;
   }
 
   .custom-btn5{
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .custom-text{
-    margin-left: -10%;
+    margin-left: 8%;
     margin-top: -6%;
     margin-right: 320px;
     font-size: 14px;
@@ -6017,27 +6078,27 @@ hr {
   .custom-title10{
     font-size: 24px;
     margin-left: 1%;
-    margin-top: -10%;
+    margin-top: -20%;
   }
 
   .custom-text10{
-    font-size: 14px;
+    font-size: 22px;
     margin-top: 120px;
   }
 
   .custom-btn3{
-    margin-top: 400px;
-    font-size: 9px;
+    margin-top: 490px;
+    font-size: 14px;
     border: 1px solid #fff;
   }
 
   .LICENCIAS10 h6{
-    font-size: 18px;
+    font-size: 30px;
     text-align: center;
     margin-top: 123px;
     margin-bottom: -163px;
     font-weight: 700;
-    top: -175px !important;
+    top: -211px !important;
     position: relative;
   }
 
@@ -6062,25 +6123,46 @@ hr {
   }
 
   .custom-btn10{
-    margin-left: -21px;
-    margin-top: -8px;
-    padding: 2px 5px;
+    margin-left: -42px;
+    margin-top: -24px;
+    padding: 0px 9px;
   }
 
+  .custom-btn11{
+    margin-left: -42px;
+    margin-top: -24px;
+    padding: 0px 9px;
+  }
+
+
   .custom-btn12{
-    margin-left: -21px;
-    margin-top: -8px;
-    padding: 2px 5px;
+    margin-left: -42px;
+    margin-top: -24px;
+    padding: 0px 9px;
+  }
+
+  .custom-btn13{
+    margin-left: -42px;
+    margin-top: -24px;
+    padding: 0px 9px;
   }
 
   .custom-btn14{
-    margin-left: -21px;
-    margin-top: -8px;
-    padding: 2px 5px;
+    margin-left: -42px;
+    margin-top: -24px;
+    padding: 0px 9px;
   }
 
+  .custom-btn15{
+    margin-left: -42px;
+    margin-top: -24px;
+    padding: 0px 9px;
+  }
+
+  
+
   .titulo{
-    font-size: 24px;
+    font-size: 40px;
   }
 
   .banner-image{
@@ -6094,11 +6176,12 @@ hr {
 
   .custom-heading2{
     font-size: 28px;
+    margin-top: -16px;
   }
 
   .custom-text2{
-    font-size: 14px;
-    margin-right: 170px;
+    font-size: 16px;
+    margin-right: 344px;
     margin-top: 79px;
   }
 
@@ -6109,13 +6192,13 @@ hr {
   }
 
   .mineriat{
-    width: 100%;
-    margin-left: 0;
+    width: 40%;
+    margin-left: -449px;
   }
 
   .title11{
-    margin-left: 50%;
-    font-size: 24px;
+    margin-left: 35%;
+    font-size: 34px;
   }
 
   .container30{
@@ -6127,9 +6210,9 @@ hr {
   }
 
   .sub-title3{
-    left: 66px;
+    left: 55px;
     font-size: 12px;
-    margin-top: 91px;
+    margin-top: 294px;
   }
 
   .banner-title2{
@@ -6141,40 +6224,40 @@ hr {
   }
 
   .image-overlay20{
-    width: 100%;
-    bottom: auto;
-    left: auto;
+    width: 40%;
+    bottom: 10%;
+    left: 4%;
   }
 
   .custom-heading3{
-    margin-left: 0;
+    margin-left: 52px;
     font-size: 24px;
     line-height: 1;
-    margin-top: -94px;
+    margin-top: -84px;
   }
 
   .separador{
-    margin-left: 0;
-    margin-top: -42px;
+    margin-left: 54px;
+    margin-top: -30px;
   }
 
   .custom-text3{
-    margin-left: 0;
-    margin-right: 0;
-    font-size: 11px;
+    margin-left:50px;
+    font-size: 16px;
     margin-top: -17px;
+    padding-right: 50%;
   }
 
   .icon-title2{
     margin-left: 2px;
     align-items: center;
     margin-right: -15px;
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .icon-item2 img{
-    margin-left: 0;
-    width: 100%;
+    margin-left: 20px;
+    width: 85%;
     height: auto;
     margin-bottom: 2px;
     margin-top: -37px;
@@ -6185,11 +6268,16 @@ hr {
   }
 
   figcaption{
-    font-size: 10px;
+    font-size: 12px;
+    width: 114%;
   }
 
   .container22{
-    gap: 20px;
+    gap: 7px;
+  }
+
+  #seccion-oportunidad .movil{
+    display: none;
   }
 
   .section5{
@@ -6207,8 +6295,9 @@ hr {
   }
 
   .texto{
-    font-size: 12px;
-    margin-top: -34px;
+    font-size: 15px;
+    margin-top: -70px;
+    text-align: justify;
   }
 
   .join-us3{
@@ -6216,17 +6305,17 @@ hr {
   }
 
   .marquee__group img{
-    max-height: 55px;
+    max-height: 100px;
   }
 
   .title90{
-    margin-left: 50%;
-    font-size: 24px;
+    margin-left: 35%;
+    font-size: 35px;
     margin-bottom: 30px;
   }
 
   .accordion__button{
-    padding: 5px;
+    padding: 10px;
     width: 100%;
     font-size: 14px;
     margin-left: 0;
@@ -6247,11 +6336,11 @@ hr {
   }
 
   .curved-section{
-    margin-left: 0;
-    font-size: 16px;
-    margin-bottom: -20%;
-    width: 100%;
-    padding-top: 22px;
+    margin-left: 216px;
+    font-size: 35px;
+    margin-bottom: -31%;
+    width: 64%;
+    padding-top: 20px;
   }
 
   .footer-title{
@@ -6265,24 +6354,26 @@ hr {
 
   .footer-title2{
     font-size: 14px;
+    margin-left: 20px;
   }
 
   .footer-title3{
     font-size: 14px;
+    margin-left: 45px;
   }
 
   .email-input{
     padding: 0px 1px;
-    margin-left: 212px;
-    font-size: 11px;
-    margin-top: -68px;
+    margin-left: 444px;
+    font-size: 17px;
+    margin-top: -150px;
   }
 
   .subscribe-button{
     padding: 0px 2px;
-    margin-left: 296px;
-    font-size: 14px;
-    margin-top: -67px;
+    margin-left: 646px;
+    font-size: 20px;
+    margin-top: -150px;
   }
 
   .footer-navigation{
@@ -6290,7 +6381,7 @@ hr {
   }
 
   .footer-text{
-    font-size: 10px;
+    font-size: 12px;
     margin-right: 20%;
   }
 
