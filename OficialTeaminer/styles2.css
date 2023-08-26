@@ -4099,9 +4099,6 @@ hr {
 
 
 
-  body{
-    overflow-x: hidden !important;
-  }
 
   /*
 
@@ -4697,9 +4694,7 @@ hr {
 /*--------------------------------------481px px hasta 768px----------------------------------------------------------------------*/
 @media (min-width: 481px) and (max-width: 768px) {
 
-  body{
-    overflow-x: hidden !important;
-  }
+
 
 
   /* .menu {
