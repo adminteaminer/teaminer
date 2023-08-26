@@ -4096,9 +4096,9 @@ hr {
 
 
 
-  /*
+  /**/
 
-    .menu {
+  .menu {
     max-width: 100%;
     justify-content: center;
     top: 4px;
@@ -4149,7 +4149,7 @@ hr {
     margin-left: 17%;
   }
 
-  */
+  
 
   .menu {
     display: none;
@@ -4186,7 +4186,7 @@ hr {
     margin-top: -1px;
   }
 
-  /* Estilos del menú lateral */
+  /* Estilos del menú lateral 
   .slide-bar {
     position: fixed;
     top: 0;
@@ -4201,6 +4201,7 @@ hr {
     z-index: 1000;
     text-decoration: none;
   }
+  */
   
   .slide-bar.open {
     left: 0;
@@ -4793,7 +4794,7 @@ hr {
     margin-right: 195px;
   }
 
-  /* Estilos del menú lateral */
+  /* Estilos del menú lateral 
   .slide-bar {
     position: fixed;
     top: 0;
@@ -4808,6 +4809,7 @@ hr {
     z-index: 1000;
     text-decoration: none;
   }
+  */
   
   .slide-bar.open {
     left: 0;
