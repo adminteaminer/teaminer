@@ -5690,7 +5690,7 @@ hr {
 
   .mineriat{
     width: 35%;
-    margin-left: -464px;
+    margin-left: -400px;
     margin-top: -10px;
   }
 
@@ -5723,7 +5723,7 @@ hr {
 
   .image-overlay20{
     width: 42%;
-    bottom: 90px;
+    bottom: 20px;
     left: 120px;
   }
 
@@ -5867,14 +5867,14 @@ hr {
 
   .email-input{
     padding: 0px 1px;
-    margin-left: 437px;
+    margin-left: 418px;
     font-size: 15px;
     margin-top: -136px;
   }
 
   .subscribe-button{
     padding: 0px 2px;
-    margin-left: 616px;
+    margin-left: 570px;
     font-size: 18px;
     margin-top: -137px;
   }
