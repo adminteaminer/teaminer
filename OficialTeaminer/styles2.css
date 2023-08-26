@@ -4160,6 +4160,18 @@ hr {
 
   */
 
+  .menu {
+    display: none;
+  }
+
+  .slide-bar {
+    display: block;
+  }
+
+  .open-button {
+    display: block;
+  }
+
   .registration-button{
     padding: 0px 1px;
     font-weight: bold;
@@ -4690,7 +4702,9 @@ hr {
   body{
     overflow-x: hidden !important;
   }
-  .menu {
+
+
+  /* .menu {
     max-width: 100%;
     justify-content: center;
     top: 4px;
@@ -4739,6 +4753,18 @@ hr {
   .top-menu li a{
     font-size: 9px;
     margin-left: 17%;
+  } */
+
+  .menu {
+    display: none;
+  }
+
+  .slide-bar {
+    display: block;
+  }
+
+  .open-button {
+    display: block;
   }
 
   .registration-button{
