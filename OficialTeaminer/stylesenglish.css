@@ -3920,7 +3920,7 @@ font-size: 36px;
   margin-right: 517px;
   font-size: 16px;
   margin-top: -51px;
-  padding-right: 685px;
+  padding-right: 160px;
 
 }
 
@@ -3948,8 +3948,12 @@ figcaption{
   font-size: 12px;
 }
 
+#seccion-oportunidad .movil{
+  display: none;
+}
+
 .container22{
-  gap: 30px;
+  gap: 80px;
 }
 
 .section5{
@@ -4029,11 +4033,13 @@ figcaption{
 
 .footer-title2{
   font-size: 16px;
+  margin-left: 18px;
 
 }
 
 .footer-title3{
   font-size: 16px;
+  margin-left: 95px;
 
 }
 
@@ -4061,15 +4067,16 @@ figcaption{
 
 .footer-text{
   font-size: 12px;
-  margin-right: 33%;
+  margin-right: 12%;
+  text-align: justify;
 }
 
 .footer-column0{
-  margin-right: -8%;
+  margin-right: -12%;
 }
 
 .footer-column1{
-  margin-right: -8%;
+  margin-right: 2%;
 }
 
 .footer-column2{
@@ -4084,6 +4091,13 @@ figcaption{
 .footer-link footer-link-1
 {
   font-size: 40px;
+}
+
+.redes-sociales{
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  margin-top: 70px;
 }
 }
 
