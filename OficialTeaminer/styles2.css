@@ -4538,7 +4538,10 @@ hr {
   }
 
   figcaption{
-    font-size: 10px;
+    font-size: 12px;
+    margin-bottom: 45%;
+    width: 100%;
+    text-align: center;
   }
 
   .container22{
