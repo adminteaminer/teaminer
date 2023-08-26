@@ -3500,11 +3500,21 @@ TERMINOS Y CONDICIONES
 
 
 @media screen and (min-width: 1200px) {
+
+
+  .banner-section img{
+    max-width: 70%;
+    margin-top: -27%;
+
+
+  }
+
+
   .menu {
     max-width: 100%;
     justify-content: center;
-    top: 4px;
-    height: 58px;
+    top: 12px;
+    height: 80px;
   }
 
   .main-menu{
@@ -3565,15 +3575,15 @@ TERMINOS Y CONDICIONES
   }
 
   .nft-button{
-    right: 71px;
+    right: 219px;
     position: fixed;
-    bottom: 586px;
-    padding-left: 16px;
+    bottom: 113%;
+    padding-left: 9px;
     font-size: 12px;
     padding-top: 2px;
     padding-bottom: 18px;
-    padding-right: 17px;
-    top: 31px;
+    padding-right: 9px;
+    top: 5px;
     margin-top: -1px;
   }
 
@@ -3585,7 +3595,7 @@ TERMINOS Y CONDICIONES
   .logo img{
     max-width: 204px;
     height: auto;
-    margin-left: -19%;
+    margin-left: 1%;
   }
 
 
@@ -3732,7 +3742,7 @@ TERMINOS Y CONDICIONES
   }
 
   .sub-title4{
-    font-size: 16px;
+    font-size: 19px;
     margin-bottom: 86px;
     margin-top: -15px;
   }
@@ -3750,7 +3760,7 @@ TERMINOS Y CONDICIONES
 
   .custom-btn3{
     margin-top: 473px;
-    font-size: 10px;
+    font-size: 14px;
     border: 1px solid rgb(255, 255, 255)
   }
 
@@ -3842,7 +3852,7 @@ hr {
 
   .custom-text2{
     font-size: 17px;
-    margin-right: 340px;
+    margin-right: 446px;
     margin-top: 158px;
   }
 
@@ -3888,9 +3898,9 @@ hr {
   }
 
   .image-overlay20{
-    width: 25%;
-    bottom: 216px;
-    left: 143px;
+    width: 40%;
+    bottom: 119px;
+    left: 260px;
   }
 
   .custom-heading3{
@@ -3908,8 +3918,9 @@ hr {
   .custom-text3{
     margin-left: 134px;
     margin-right: 517px;
-    font-size: 13px;
+    font-size: 16px;
     margin-top: -51px;
+    padding-right: 685px;
 
   }
 
@@ -3917,7 +3928,7 @@ hr {
     margin-left: 2px;
     align-items: center;
     margin-right: -25px;
-    font-size: 12px;
+    font-size: 22px;
 
   }
 
@@ -3956,8 +3967,12 @@ hr {
   }
 
   .texto{
-    font-size: 15px;
+    font-size: 17px;
     margin-top: -57px;
+  }
+
+  #seccion-oportunidad .movil{
+    display: none;
   }
 
   .join-us3{
@@ -3998,7 +4013,7 @@ hr {
   .curved-section{
     margin-left: 319px;
     font-size: 20px;
-    margin-bottom: -31%;
+    margin-bottom: -24%;
     width: 51%;
     padding-top: 33px;
   }
@@ -4200,8 +4215,14 @@ hr {
   
 
   .explore-button{
-    margin-bottom: 200px;
-    margin-right: 195px;
+    margin-bottom: 536px;
+    margin-right: 761px;
+    width: 17%;
+    margin-top: 685px;
+    padding-left: 3%;
+    font-size: 12px;
+    padding-bottom: 1px;
+    padding-top: 0px;
   }
 
   .logo img{
@@ -4246,9 +4267,9 @@ hr {
   }
 
   .logo-movil2{
-    margin-left: 60%;
-    width: 39%;
-    margin-top: 245px;
+    margin-left: 66%;
+    width: 33%;
+    margin-top: 305px;
   }
 
   .sub-title{
@@ -5302,6 +5323,14 @@ hr {
     
   }
 
+  .banner-section img {
+    max-width: 97%;
+    height: auto;
+    margin-top: -10%;
+  }
+
+
+
 
   .menu {
     max-width: 90%;
@@ -5378,18 +5407,18 @@ hr {
   }
 
   .explore-button{
-    margin-bottom: 206px;
-    margin-right: 258px;
+    margin-bottom: 200px;
+    margin-right: 400px;
     width: 12%;
-    height: 7%;
+    height: 5%;
     padding-top: 3px;
-    margin-top: -24px;
+    margin-top: -139px;
   }
 
   .logo img{
     max-width: 171px;
     height: auto;
-    margin-left: -0%;
+    margin-left: 30%;
   }
 
 
@@ -5422,8 +5451,9 @@ hr {
   }
 
   .bienvenida{
-    margin-left: 260px;
+    margin-left: 252px;
     margin-top: 300px;
+    max-width: 60%;
   }
 
   .logo-movil2{
@@ -5490,7 +5520,7 @@ hr {
   }
 
   .card{
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .centro{
@@ -5646,7 +5676,7 @@ hr {
 
   .custom-text2{
     font-size: 16px;
-    margin-right: 375px;
+    margin-right: 421px;
     margin-top: 60px;
   }
 
@@ -5657,7 +5687,7 @@ hr {
   }
 
   .mineriat{
-    width: 17%;
+    width: 35%;
     margin-left: -464px;
     margin-top: -10px;
   }
@@ -5686,7 +5716,7 @@ hr {
   }
 
   .banner-description2{
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .image-overlay20{
@@ -5720,7 +5750,7 @@ hr {
     margin-left: 1px;
     align-items: center;
     margin-right: -12px;
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .icon-item2 img{
@@ -5808,7 +5838,7 @@ hr {
   .curved-section{
     margin-left: 130px;
     font-size: 37px;
-    margin-bottom: -36%;
+    margin-bottom: -33%;
     width: 74%;
     padding-top: 23px;
   }
