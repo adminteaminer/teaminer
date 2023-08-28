@@ -4570,10 +4570,10 @@ hr {
 
   .custom-text3{
     margin-left:7px;
-    margin-right: 0;
     font-size: 13px;
     margin-top: -11px;
     text-align: justify;
+    padding-right: 79px;
   }
 
   .icon-title2{
