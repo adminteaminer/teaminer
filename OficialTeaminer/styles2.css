@@ -4298,9 +4298,9 @@ hr {
   }
 
   .item{
-    margin-left: 70px;
+    margin-left: 104px;
     max-height: 30%;
-    max-width: 100%;
+    width: 100%;
     margin-top: 17%;
   }
 
