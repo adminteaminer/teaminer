@@ -4365,7 +4365,7 @@ hr {
   }
 
   .banner-title{
-    font-size: 32px;
+    font-size: 25px;
     margin-top: 2%;
   }
 
@@ -4377,6 +4377,7 @@ hr {
   .icon-item img{
     width: 90px;
     height: 90px;
+    margin-top: -16px;
   }
 
   .icon-title{
@@ -4504,8 +4505,10 @@ hr {
 
   .custom-text2{
     font-size: 16px;
-    margin-right: -69px;
+    margin-right: -57px;
     margin-top: 79px;
+    text-align: justify;
+    margin-left: -53px;
   }
 
   .separador2{
@@ -4515,8 +4518,9 @@ hr {
   }
 
   .mineriat{
-    width: 100%;
-    margin-left: 0;
+    width: 121%;
+    margin-left: -27px;
+    padding-top: 20px;
   }
 
   .title11{
