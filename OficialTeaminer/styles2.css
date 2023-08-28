@@ -4000,6 +4000,9 @@ hr {
   
   .accordion__content{
     font-size: 15px;
+    margin-left: 44px;
+    text-align: justify;
+    margin-right: 39px;
   }
 
   .arrow{
@@ -4557,9 +4560,9 @@ hr {
   }
 
   .custom-heading3{
-    margin-left: 0;
+    margin-left: -15px;
     font-size: 15px;
-    line-height: 1;
+    line-height: 2;
     margin-top: -94px;
   }
 
