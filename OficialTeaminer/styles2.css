@@ -60,7 +60,7 @@
   }
   
   li {
-    padding: 10px 20px;
+    padding: 1px 2px;
     
     text-decoration: none;
   }
@@ -2297,6 +2297,7 @@ a {
 }
 a:hover {
   text-decoration: none;
+  color: white;
 }
 .link2 {
   color: #ffffff;
@@ -3555,7 +3556,7 @@ TERMINOS Y CONDICIONES
 
   .top-menu li{
     font-size: 10px;
-    margin-left: -5%;
+    margin-left: 0%;
   }
 
   .top-menu li a{
@@ -3564,12 +3565,12 @@ TERMINOS Y CONDICIONES
   }
 
   .registration-button{
-    padding: 0px 2px;
+    padding: 7px 6px;
     font-weight: bold;
     border: 1px solid #000;
     border-radius: 5px;
     font-size: 12px;
-    margin-left: 3%;
+    margin-left: 0%;
     margin-top: 15px;
 
   }
