@@ -4336,6 +4336,27 @@ hr {
 
   .card{
     font-size: 10px;
+    padding-bottom: 1%;
+  }
+
+  .img-first{
+    width: 100%;
+    padding-top: 56px;
+    margin-top: 1%;
+  }
+
+  .img-second{
+    width: 100%;
+    padding-top: 56px;
+    margin-top: 1%;
+
+  }
+
+  .img-third{
+    width: 100%;
+    padding-top: 56px;
+    margin-top: 1%;
+
   }
 
   .centro{
