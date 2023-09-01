@@ -6506,10 +6506,22 @@ hr {
     font-size: 32px;
   }
 
-
-
-
-
 }
+
+/*---------Media Querie*/
+
+@media screen and (min-width: 1601px) {
+
+  .container22{
+    gap: 176px;
+  }
+  
+}
+
+
+
+
+
+
 
 
