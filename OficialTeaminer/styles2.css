@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -57,7 +56,6 @@ ul {
 
 li {
   padding: 1px 2px;
-
   text-decoration: none;
 }
 
@@ -112,6 +110,59 @@ li a:hover {
 
   /*Estilos Menu Superior*/
 }
+
+.menu-miner {
+  display: flex;
+  list-style: none;
+  margin-top: -39px;
+  margin-left: 380px;
+  position: absolute;
+  margin-bottom: 50px;
+}
+
+.menu-miner li {
+  margin-right: 15px;
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.menu-miner li a {
+  display: block;
+  margin-top: -16px;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  font-size: 12px;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 14px;
+}
+
+.menu-miner li a:hover {
+  color: #ff00f7;
+}
+
+.menu-sign {
+  display: flex;
+  list-style: none;
+  margin-top: -36px;
+  margin-left: 587px;
+  position: absolute;
+  margin-bottom: 50px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.menu-miner li {
+  margin-right: 15px;
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+}
+
 .top-menu {
   display: flex;
   list-style: none;
@@ -136,8 +187,9 @@ li a:hover {
   text-decoration: none;
   color: #000000;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 11px;
   transition: background-color 0.3s, color 0.3s;
+  margin-left: 7%;
 }
 
 .top-menu li a:hover {
@@ -150,11 +202,13 @@ li a:hover {
 
 .top-menu .language-options {
   background-color: white;
-  padding: 1em 8px;
-  position: absolute; /*WITH RESPECT TO PARENT*/
+  padding: 1em 2px;
+  margin-left: 13px;
+  position: relative;
   display: none;
   border-radius: 15px;
-  top: 31px;
+  top: 1px;
+  padding-bottom: 0px;
 }
 
 .top-menu .language-options li + li {
@@ -3278,7 +3332,7 @@ TERMINOS Y CONDICIONES
     display: flex;
     list-style: none;
     margin-top: -37px;
-    margin-left: 374px;
+    margin-left: 510px;
     position: absolute;
     gap: 11px;
     margin-bottom: 50px;
@@ -3291,7 +3345,7 @@ TERMINOS Y CONDICIONES
 
   .top-menu li a {
     font-size: 11px;
-    margin-left: 34%;
+    margin-left: -1%;
   }
 
   .registration-button {
