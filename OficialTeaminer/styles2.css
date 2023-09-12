@@ -2893,14 +2893,6 @@ Media query para pantallas de 768px
 ------------------------------------------------------------------
 */
 
-@media screen and (max-width: 768px) {
-  .title90 {
-    font-size: 30px;
-    margin-top: 150px;
-    margin-left: 100px;
-  }
-}
-
 /*media query FAQ*/
 
 @media screen and (max-width: 768px) {
@@ -4402,10 +4394,12 @@ TERMINOS Y CONDICIONES
   }
 
   .title90 {
-    margin-left: 30%;
+    margin-left: 20%;
     font-size: 24px;
     margin-bottom: 30px;
+    margin-top: 150px;
   }
+
   .accordion__button {
     padding: 5px;
     width: 100%;
