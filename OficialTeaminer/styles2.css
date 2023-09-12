@@ -3379,6 +3379,10 @@ TERMINOS Y CONDICIONES
   }
   */
 
+  .container1 {
+    max-width: 100%;
+  }
+
   .overlay {
     width: 63%;
     margin-left: 19%;
@@ -3927,16 +3931,23 @@ TERMINOS Y CONDICIONES
   }
 
   .nft-button {
-    right: 147px;
+    right: 213px;
     position: fixed;
-    bottom: 841px;
+    bottom: 899px;
     padding-left: 8px;
     font-size: 10px;
-    padding-top: 1px;
+    padding-top: 5px;
     padding-bottom: 12px;
     padding-right: 9px;
     top: 66px;
     margin-top: -1px;
+  }
+
+  .logo-movil {
+    max-width: 60%;
+    margin-bottom: 150px;
+    margin-left: 67px;
+    margin-top: 0px;
   }
 
   /* Estilos del menú lateral 
@@ -3981,19 +3992,26 @@ TERMINOS Y CONDICIONES
     margin-left: -9%;
   }
 
+  .container1 {
+    max-width: 73%;
+  }
+
   .overlay {
-    width: 100%;
-    margin-left: 0;
+    width: 122%;
+    margin-left: 23px;
     margin-top: 180px;
     padding-left: 3rem;
+    height: 56vh;
   }
 
   .overlay__title {
     font-size: 20px;
     margin-bottom: -2rem;
-    margin-top: -99px;
+    margin-top: -236px;
     padding-left: 1px;
     line-height: 118%;
+    margin-left: 6px;
+    margin-right: 106px;
   }
 
   .overlay__description {
@@ -4001,37 +4019,60 @@ TERMINOS Y CONDICIONES
     font-size: 12px;
     padding-left: 2px;
     text-align: center;
-    margin-top: 9%;
+    margin-top: 30%;
+    margin-right: 71px;
+    margin-left: -14px;
   }
 
   .overlay__btns {
     margin-left: 2%;
     text-decoration: none !important;
+    flex-direction: inherit;
   }
 
-  .bienvenida {
-    margin-left: 4px;
-    margin-top: 395px;
-    width: 94%;
+  .overlay__btn--transparent {
+    margin-right: 36px;
+    margin-left: 25px;
   }
 
   .logo-movil2 {
-    margin-left: 66%;
-    width: 33%;
-    margin-top: 305px;
+    margin-left: 36%;
+    max-width: 33%;
+    margin-top: 366px;
+  }
+
+  .titulo5 {
+    text-align: justify;
+    padding: 10px;
+    max-width: 100%;
   }
 
   .sub-title {
     font-size: 16px;
-    margin-top: -84%;
-    margin-left: 15%;
+    margin-top: -90%;
+    margin-left: 24%;
   }
 
   .custom-heading {
-    margin-top: -71%;
-    margin-left: 1%;
+    margin-top: -81%;
+    margin-left: 14%;
     font-size: 25px;
-    line-height: 32px;
+    line-height: 30px;
+    margin-right: 75px;
+  }
+
+  .custom-text {
+    margin-left: 4px;
+    margin-top: -51%;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 10px;
+  }
+
+  .bienvenida {
+    margin-left: 4px;
+    margin-top: 91px;
+    max-width: 94%;
   }
 
   .item {
@@ -4039,11 +4080,6 @@ TERMINOS Y CONDICIONES
     max-height: 28%;
     max-width: 100%;
     margin-top: 17%;
-  }
-
-  .titulo5 {
-    text-align: justify;
-    padding: 10px;
   }
 
   hr {
@@ -4067,9 +4103,18 @@ TERMINOS Y CONDICIONES
   }
 
   .blank {
-    font-size: 32px;
+    font-size: 28px;
     margin-top: 20%;
     font-weight: bold;
+  }
+
+  .centro {
+    margin-left: 4%;
+  }
+
+  .container-second {
+    margin-bottom: 180px;
+    max-width: 100%;
   }
 
   .card {
@@ -4081,6 +4126,19 @@ TERMINOS Y CONDICIONES
     width: 100%;
     padding-top: 56px;
     margin-top: 1%;
+  }
+
+  .titulo-card1,
+  .titulo-card2,
+  .titulo-card3 {
+    text-align: center;
+  }
+
+  .texto-card1,
+  .texto-card2,
+  .texto-card3 {
+    text-align: justify;
+    font-size: 12px;
   }
 
   .img-second {
@@ -4095,8 +4153,11 @@ TERMINOS Y CONDICIONES
     margin-top: 1%;
   }
 
-  .centro {
-    margin-left: 4%;
+  .banner {
+    margin-left: 9px;
+    margin-right: 8px;
+    max-width: 100%;
+    margin-top: -20%;
   }
 
   .banner-title {
@@ -4107,7 +4168,7 @@ TERMINOS Y CONDICIONES
   }
 
   .banner-description {
-    font-size: 13px;
+    font-size: 16px;
     margin-top: -40%;
   }
 
@@ -4127,17 +4188,42 @@ TERMINOS Y CONDICIONES
     font-size: 13px;
   }
 
-  .custom-text {
-    margin-left: 6%;
-    margin-top: -6%;
-    font-size: 13px;
-    text-align: justify;
-  }
-
   .sub-title4 {
     font-size: 16px;
     margin-bottom: 68px;
     margin-top: -12px;
+    text-align: justify;
+    margin-left: -28px;
+    margin-right: -30px;
+  }
+
+  figure {
+    width: 65%;
+  }
+
+  figure:hover .image {
+    max-width: 100%;
+    height: 134%;
+  }
+
+  figcaption {
+    font-size: 11px;
+    margin-bottom: 54%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner-image {
+    max-width: 99%;
+    margin-bottom: -10%;
+    margin-left: 11%;
+  }
+
+  .titulo10 {
+    margin-top: 74px;
+    margin-bottom: 60px;
+    padding-right: 300px;
+    margin-left: -17px;
   }
 
   .custom-title10 {
@@ -4149,6 +4235,36 @@ TERMINOS Y CONDICIONES
   .custom-text10 {
     font-size: 9px;
     margin-top: 120px;
+  }
+
+  .banner-description2 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .container80 {
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 50px;
+    margin-left: -170px;
+    margin-bottom: 300px;
+    max-width: 100%;
+    margin-top: 60px;
+  }
+
+  .icon-title2 {
+    margin-left: 2px;
+    align-items: center;
+    margin-right: -15px;
+    font-size: 16px;
+  }
+
+  .icon-item2 img {
+    margin-left: 89px;
+    width: 28%;
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: -37px;
   }
 
   .custom-btn3 {
@@ -4163,8 +4279,18 @@ TERMINOS Y CONDICIONES
     margin-top: 123px;
     margin-bottom: -163px;
     font-weight: 700;
-    top: -175px !important;
+    top: -200px !important;
     position: relative;
+  }
+
+  .join-us3 {
+    margin-top: 24px;
+    background-position: top;
+    margin-left: 61px;
+  }
+
+  .container33 {
+    max-width: 100%;
   }
 
   hr {
@@ -4224,12 +4350,6 @@ TERMINOS Y CONDICIONES
     font-size: 24px;
   }
 
-  .banner-image {
-    width: 100%;
-    margin-bottom: -10%;
-    margin-left: 10%;
-  }
-
   .titulo11 {
     padding: 65px;
     text-align: center;
@@ -4283,10 +4403,6 @@ TERMINOS Y CONDICIONES
     margin-top: -410px;
   }
 
-  .banner-description2 {
-    font-size: 14px;
-  }
-
   .image-overlay20 {
     width: 100%;
     bottom: auto;
@@ -4312,7 +4428,7 @@ TERMINOS Y CONDICIONES
   .custom-text3 {
     /*margin-left: 7px;*/
     margin-left: 29px;
-    font-size: 13px;
+    font-size: 16px;
     margin-top: -11px;
     text-align: justify;
     /*padding-right: 126px;*/
@@ -4328,31 +4444,9 @@ TERMINOS Y CONDICIONES
     margin-left: 3px;
   }
 
-  .icon-title2 {
-    margin-left: 2px;
-    align-items: center;
-    margin-right: -15px;
-    font-size: 10px;
-  }
-
-  .icon-item2 img {
-    margin-left: 89px;
-    width: 28%;
-    height: auto;
-    margin-bottom: 50px;
-    margin-top: -37px;
-  }
-
   .container2 {
     margin-top: 163px;
     max-width: 100%;
-  }
-
-  figcaption {
-    font-size: 12px;
-    margin-bottom: 45%;
-    width: 100%;
-    text-align: center;
   }
 
   .container22 {
@@ -4372,21 +4466,12 @@ TERMINOS Y CONDICIONES
     font-size: 24px;
   }
 
-  .titulo10 {
-    margin-top: 74px;
-    margin-bottom: 81px;
-
-    padding-right: 300px;
-    margin-left: -17px;
-  }
-
   .texto {
-    font-size: 12px;
+    font-size: 16px;
     margin-top: -34px;
-  }
-
-  .join-us3 {
-    margin-top: 24px;
+    text-align: justify;
+    margin-left: -24px;
+    margin-right: -24px;
   }
 
   .marquee__group img {
@@ -4617,6 +4702,10 @@ TERMINOS Y CONDICIONES
     max-width: 102px;
     height: auto;
     margin-left: -9%;
+  }
+
+  .container1 {
+    max-width: 100%;
   }
 
   .overlay {
