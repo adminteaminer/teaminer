@@ -4306,16 +4306,27 @@ TERMINOS Y CONDICIONES
     margin-top: -42px;
   }
 
+  .text-gradient5 {
+    font-size: 18px;
+  }
+
   .custom-text3 {
     /*margin-left: 7px;*/
-    margin-left: 26px;
+    margin-left: 29px;
     font-size: 13px;
     margin-top: -11px;
     text-align: justify;
     /*padding-right: 126px;*/
-    padding-right: 105px;
+    /*padding-right: 105px;*/
+    padding-right: 7px;
     display: flex;
     flex-direction: column;
+    max-width: 97%;
+    margin-right: 0px;
+  }
+
+  .custom-text3 strong {
+    margin-left: 3px;
   }
 
   .icon-title2 {
@@ -4335,6 +4346,7 @@ TERMINOS Y CONDICIONES
 
   .container2 {
     margin-top: 163px;
+    max-width: 100%;
   }
 
   figcaption {
@@ -4353,6 +4365,10 @@ TERMINOS Y CONDICIONES
     padding-left: 29px;
   }
 
+  .titulo100 {
+    margin-top: -350px;
+  }
+
   .sub-title100 {
     font-size: 24px;
   }
@@ -4360,6 +4376,9 @@ TERMINOS Y CONDICIONES
   .titulo10 {
     margin-top: 74px;
     margin-bottom: 81px;
+
+    padding-right: 300px;
+    margin-left: -17px;
   }
 
   .texto {
