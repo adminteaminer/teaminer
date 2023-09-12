@@ -3857,6 +3857,10 @@ TERMINOS Y CONDICIONES
 @media (min-width: 320px) and (max-width: 480px) {
   /**/
 
+  body {
+    overflow-x: hidden;
+  }
+
   .menu {
     max-width: 100%;
     justify-content: center;
