@@ -6225,11 +6225,23 @@ TERMINOS Y CONDICIONES
 /*---------Media Querie*/
 
 @media screen and (min-width: 1600px) {
+  .custom-text {
+    margin-right: 620px;
+  }
+
+  .custom-text2 {
+    margin-right: 560px;
+  }
+
   .icon-title2 {
-    margin-left: 43px;
+    margin-left: 83px;
     align-items: center;
-    margin-right: -33px;
+    margin-right: -110px;
     font-size: 19px;
+  }
+
+  .icon-item2 img {
+    margin-left: 32%;
   }
 
   .image-overlay20 {
