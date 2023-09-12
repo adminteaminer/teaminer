@@ -4298,7 +4298,7 @@ TERMINOS Y CONDICIONES
     margin-left: -15px;
     font-size: 15px;
     line-height: 2;
-    margin-top: -94px;
+    margin-top: -364px;
   }
 
   .separador {
@@ -4307,11 +4307,15 @@ TERMINOS Y CONDICIONES
   }
 
   .custom-text3 {
-    margin-left: 7px;
+    /*margin-left: 7px;*/
+    margin-left: 26px;
     font-size: 13px;
     margin-top: -11px;
     text-align: justify;
-    padding-right: 126px;
+    /*padding-right: 126px;*/
+    padding-right: 105px;
+    display: flex;
+    flex-direction: column;
   }
 
   .icon-title2 {
