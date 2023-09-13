@@ -4063,7 +4063,7 @@ TERMINOS Y CONDICIONES
 
   .custom-text {
     margin-left: 4px;
-    margin-top: -51%;
+    margin-top: -34%;
     font-size: 16px;
     text-align: justify;
     margin-right: 10px;
@@ -4071,8 +4071,12 @@ TERMINOS Y CONDICIONES
 
   .bienvenida {
     margin-left: 4px;
-    margin-top: 91px;
+    margin-top: 250px;
     max-width: 94%;
+  }
+
+  .container {
+    margin-top: -340px;
   }
 
   .item {
@@ -4209,8 +4213,9 @@ TERMINOS Y CONDICIONES
   figcaption {
     font-size: 11px;
     margin-bottom: 54%;
-    width: 100%;
     text-align: center;
+    width: calc(244% + -108px);
+    padding-bottom: 4px;
   }
 
   .banner-image {
