@@ -3467,7 +3467,7 @@ TERMINOS Y CONDICIONES
 
   .blank {
     font-size: 40px;
-    margin-top: 30%;
+    margin-top: -10%;
     font-weight: bold;
   }
 
@@ -3501,6 +3501,15 @@ TERMINOS Y CONDICIONES
   }
   .custom-btn5 {
     font-size: 15px;
+  }
+
+  .container-second {
+    margin-bottom: 467px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 372px;
   }
 
   .custom-text {
