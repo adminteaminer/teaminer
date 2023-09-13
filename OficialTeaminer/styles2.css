@@ -4007,11 +4007,11 @@ TERMINOS Y CONDICIONES
   .overlay__title {
     font-size: 20px;
     margin-bottom: -2rem;
-    margin-top: -236px;
+    margin-top: -163px;
     padding-left: 1px;
     line-height: 118%;
-    margin-left: 6px;
-    margin-right: 106px;
+    margin-left: -95px;
+    margin-right: -32px;
   }
 
   .overlay__description {
@@ -4020,25 +4020,25 @@ TERMINOS Y CONDICIONES
     padding-left: 2px;
     text-align: center;
     margin-top: 30%;
-    margin-right: 71px;
-    margin-left: -14px;
+    margin-right: 33px;
+    margin-left: -34px;
   }
 
   .overlay__btns {
-    margin-left: 2%;
+    margin-left: 13%;
     text-decoration: none !important;
     flex-direction: inherit;
   }
 
   .overlay__btn--transparent {
-    margin-right: 36px;
-    margin-left: 25px;
+    margin-right: 2px;
+    margin-left: -40px;
   }
 
   .logo-movil2 {
     margin-left: 36%;
     max-width: 33%;
-    margin-top: 366px;
+    margin-top: 350px;
   }
 
   .titulo5 {
@@ -4055,10 +4055,10 @@ TERMINOS Y CONDICIONES
 
   .custom-heading {
     margin-top: -81%;
-    margin-left: 14%;
+    margin-left: 3%;
     font-size: 25px;
     line-height: 30px;
-    margin-right: 75px;
+    margin-right: -2px;
   }
 
   .custom-text {
