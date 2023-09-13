@@ -5401,6 +5401,15 @@ TERMINOS Y CONDICIONES
     margin-bottom: 40px;
   }
 
+  .container-second {
+    margin-bottom: 467px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 372px;
+  }
+
   .blank {
     font-size: 28px;
     margin-top: 15%;
@@ -5971,6 +5980,15 @@ TERMINOS Y CONDICIONES
     font-size: 32px;
     margin-top: 20%;
     font-weight: bold;
+  }
+
+  .container-second {
+    margin-bottom: 467px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 372px;
   }
 
   .card {
